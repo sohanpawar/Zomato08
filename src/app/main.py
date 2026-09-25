@@ -199,6 +199,11 @@ def create_app() -> FastAPI:
         summary="Application health check",
         tags=["System"],
     )
+    @app.get(
+        "/api/health",
+        response_model=HealthResponse,
+        include_in_schema=False,
+    )
     async def health_check(
         repository: RestaurantRepository = Depends(get_repository),
     ) -> HealthResponse:
@@ -218,6 +223,11 @@ def create_app() -> FastAPI:
         response_model=MetadataResponse,
         summary="Catalog metadata for UI dropdowns",
         tags=["Catalog"],
+    )
+    @app.get(
+        "/api/meta",
+        response_model=MetadataResponse,
+        include_in_schema=False,
     )
     async def get_metadata(
         repository: RestaurantRepository = Depends(get_repository),
@@ -266,6 +276,11 @@ def create_app() -> FastAPI:
         response_model=RecommendationResponse,
         summary="Generate personalized restaurant recommendations",
         tags=["Recommendations"],
+    )
+    @app.post(
+        "/api/recommend",
+        response_model=RecommendationResponse,
+        include_in_schema=False,
     )
     async def get_recommendations(
         request: RecommendationRequest,

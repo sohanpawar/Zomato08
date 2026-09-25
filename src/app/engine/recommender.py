@@ -70,7 +70,12 @@ class RecommendationEngine:
 
         items: list[RecommendationItem] = []
         for rank, candidate in enumerate(selected_candidates, start=1):
-            raw_entity = filter_result.raw_restaurants[candidate.id]
+            raw_entity = filter_result.raw_restaurants.get(candidate.id)
+            if not raw_entity:
+                raw_entity = self.filter_service.repository.get_by_id(candidate.id)
+            if not raw_entity:
+                continue
+
             explanation = self._generate_fallback_explanation(raw_entity, request)
 
             highlights = [c for c in raw_entity.cuisines[:2]]
@@ -130,7 +135,7 @@ class RecommendationEngine:
         # 1. Process and validate LLM selections
         for selected in llm_output.recommendations:
             rest_id = selected.id
-            if rest_id not in raw_map:
+            if rest_id not in raw_map and not self.filter_service.repository.get_by_id(rest_id):
                 logger.warning("Purging hallucinated restaurant ID '%s' not present in shortlist.", rest_id)
                 continue
 
@@ -138,7 +143,9 @@ class RecommendationEngine:
                 continue
 
             seen_ids.add(rest_id)
-            raw_entity = raw_map[rest_id]
+            raw_entity = raw_map.get(rest_id) or self.filter_service.repository.get_by_id(rest_id)
+            if not raw_entity:
+                continue
 
             item = RecommendationItem(
                 rank=len(valid_items) + 1,
@@ -165,7 +172,9 @@ class RecommendationEngine:
                     break
                 if candidate.id not in seen_ids:
                     seen_ids.add(candidate.id)
-                    raw_entity = raw_map[candidate.id]
+                    raw_entity = raw_map.get(candidate.id) or self.filter_service.repository.get_by_id(candidate.id)
+                    if not raw_entity:
+                        continue
                     backfill_item = RecommendationItem(
                         rank=len(valid_items) + 1,
                         id=raw_entity.id,

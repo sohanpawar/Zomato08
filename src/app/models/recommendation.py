@@ -13,7 +13,7 @@ from app.models.restaurant import BudgetBucket
 class RecommendationRequest(BaseModel):
     """User input criteria for restaurant recommendation."""
 
-    model_config = ConfigDict(extra="forbid")
+    model_config = ConfigDict(extra="ignore")
 
     location: str = Field(
         ...,

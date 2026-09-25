@@ -50,8 +50,8 @@ class Settings(BaseSettings):
         description="Port for FastAPI backend server.",
     )
     cors_origins: list[str] = Field(
-        default=["http://localhost:8501", "http://127.0.0.1:8501"],
-        description="Allowed CORS origins (e.g., Streamlit UI).",
+        default=["*"],
+        description="Allowed CORS origins (e.g., Streamlit UI, Vercel frontend, local).",
     )
 
     # --------------------------------------------------------------------------

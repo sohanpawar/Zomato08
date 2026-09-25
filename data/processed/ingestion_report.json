@@ -1,7 +1,7 @@
 {
   "source_dataset": "ManikaSaini/zomato-restaurant-recommendation",
   "dataset_revision": "main",
-  "timestamp": "2026-09-20T16:59:50.321231+00:00",
+  "timestamp": "2026-09-25T10:19:19.666646+00:00",
   "total_raw_rows": 500,
   "valid_rows": 438,
   "clean_deduped_rows": 411,
@@ -18,5 +18,5 @@
   },
   "sqlite_path": "data/processed/restaurants.db",
   "parquet_path": "data/processed/restaurants.parquet",
-  "duration_seconds": 41.35
+  "duration_seconds": 4.75
 }

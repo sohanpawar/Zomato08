@@ -1,0 +1,8403 @@
+[
+  {
+    "id": "rest_0067ec3a5f7b",
+    "name": "Foodiction",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "Fast Food",
+      "Chinese",
+      "Burger"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 2.8,
+    "votes": 506,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "2/1, 7th Main, Dwarakangar, Hosakeregalli, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_0095f827dab2",
+    "name": "1980s Games Cafe",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Cafe",
+      "Fast Food"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.4,
+    "votes": 58,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "delivery"
+    ],
+    "address": "63, 1st Floor, Kanakapura Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_01bbb58c0e1d",
+    "name": "Gufha - The President Hotel",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "North Indian",
+      "Afghani",
+      "Mughlai"
+    ],
+    "cost_for_two": 1200,
+    "budget_bucket": "medium",
+    "rating": 4.1,
+    "votes": 1875,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "The President Hotel, 79/8, Diagonal Road, 3rd Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_01dc1f5336d7",
+    "name": "Karnataka Bhel House",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Street Food"
+    ],
+    "cost_for_two": 100,
+    "budget_bucket": "low",
+    "rating": 4.1,
+    "votes": 449,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "6, 2nd Main, 3rd Cross, Chamrajpet, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_0247f03391da",
+    "name": "Floured-Baked With Love",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Bakery"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 45,
+    "features": [
+      "takeaway",
+      "delivery"
+    ],
+    "address": "415, 1st C Cross, Banashankari 3rd Stage, 5th Block, Bangalore, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_024d78b39a48",
+    "name": "Food Geek",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Sandwich",
+      "Fast Food",
+      "Rolls"
+    ],
+    "cost_for_two": 350,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 25,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "3/1, Bugle Rock Road, Gandhi Bazaar, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_02865aeeae00",
+    "name": "Twiststick House",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Continental",
+      "Fast Food",
+      "Street Food",
+      "Momos"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 4.1,
+    "votes": 163,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "97, Opposite Jain College, Kavi Lakshmisha Road, VV Puram, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_05565e18ae54",
+    "name": "Bella",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Mangalorean",
+      "Seafood",
+      "South Indian"
+    ],
+    "cost_for_two": 1000,
+    "budget_bucket": "medium",
+    "rating": 3.9,
+    "votes": 142,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "382/71/4, 11th Main, 3rd Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_057a4b1254f6",
+    "name": "Sri Sai 99 Variety Dosa",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 25,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "Near Reliance Trends, 1st Cross, 3rd Phase, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_05af54de8838",
+    "name": "Chicken Hunt",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Biryani"
+    ],
+    "cost_for_two": 350,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 88,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "222, 100 Feet Road, Near Kathriguppe Signal, Opposite Udbav Hospital, 6th Block, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_074657942dcf",
+    "name": "Olive - Era",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "Bbq",
+      "Arabian",
+      "Rolls",
+      "Chinese",
+      "North Indian",
+      "Juices",
+      "Kebab",
+      "Desserts"
+    ],
+    "cost_for_two": 550,
+    "budget_bucket": "medium",
+    "rating": 3.3,
+    "votes": 511,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "1763, Near Swathi Nursing Home, 14th Main Road, 1st Stage, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_07f244c26a11",
+    "name": "Pizza Hut",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Pizza",
+      "Fast Food"
+    ],
+    "cost_for_two": 750,
+    "budget_bucket": "medium",
+    "rating": 3.8,
+    "votes": 693,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "2469, 21st Cross, Near BDA Complex, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_0839a162e18e",
+    "name": "Coffee Tindi",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Cafe",
+      "South Indian"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 75,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "quick_bites",
+      "cafes"
+    ],
+    "address": "27th Cross Rd, Banashankari Stage II, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_085929ae479d",
+    "name": "Subway",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Salad",
+      "Fast Food"
+    ],
+    "cost_for_two": 600,
+    "budget_bucket": "medium",
+    "rating": 3.7,
+    "votes": 136,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "186, 16th Main, 24th Cross, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_08e0ef0ddd9c",
+    "name": "The Airos",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Cafe",
+      "Italian",
+      "Pizza"
+    ],
+    "cost_for_two": 650,
+    "budget_bucket": "medium",
+    "rating": 4.1,
+    "votes": 130,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "delivery"
+    ],
+    "address": "22, 2nd Main Road, National College Road, 7th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_0930068e8459",
+    "name": "Energy Addaa",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Salad",
+      "Healthy Food",
+      "Sandwich",
+      "Juices",
+      "Burger",
+      "Desserts",
+      "Pizza"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 4.2,
+    "votes": 64,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "Rashtriya Vidyalaya Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_09e04ba1cec2",
+    "name": "Cafe Mondo",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Cafe",
+      "Italian",
+      "Beverages"
+    ],
+    "cost_for_two": 600,
+    "budget_bucket": "medium",
+    "rating": 3.7,
+    "votes": 514,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "delivery"
+    ],
+    "address": "2/2, Pattalamma Gudi Street, Armugam Circle, Near South End Circle, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_0a9442471739",
+    "name": "Kadamba Classic",
+    "city": "bangalore",
+    "area": "Mysore Road",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 16,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "Satellite Bus Stand, KSRTC, Mysore Road, Bangalore"
+  },
+  {
+    "id": "rest_0b9743bf229b",
+    "name": "Donne Biryani & Kabab Corner",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "Chinese",
+      "Biryani"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.3,
+    "votes": 12,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "8, 1st Cross Road, Teachers Colony, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_0cf5d8b48d77",
+    "name": "Behrouz Biryani",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Biryani"
+    ],
+    "cost_for_two": 650,
+    "budget_bucket": "medium",
+    "rating": 3.9,
+    "votes": 230,
+    "features": [
+      "online_delivery",
+      "delivery"
+    ],
+    "address": "101, Ground Floor, Manjunatha Complex, 22nd Main Road, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_0dd2c9f85453",
+    "name": "House Of Kebabs",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "North Indian",
+      "Kebab",
+      "Biryani",
+      "Chinese"
+    ],
+    "cost_for_two": 650,
+    "budget_bucket": "medium",
+    "rating": 3.8,
+    "votes": 540,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "39/1, R.V Road, Opposite Vijaya College, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_0e6ad1d07a5c",
+    "name": "Ibaco",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Desserts"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 33,
+    "features": [
+      "online_delivery",
+      "dessert_parlor",
+      "delivery"
+    ],
+    "address": "147, 27th Cross, 3rd Main, 6th Block, Yediyur, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_0edf60f49de8",
+    "name": "Poonam Sweets",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Mithai"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 4.4,
+    "votes": 356,
+    "features": [
+      "sweet_shop",
+      "desserts"
+    ],
+    "address": "43, BDA Complex, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_0f0c4a1a048c",
+    "name": "New Prashanth Hotel",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "South Indian",
+      "Biryani",
+      "Chinese",
+      "North Indian"
+    ],
+    "cost_for_two": 750,
+    "budget_bucket": "medium",
+    "rating": 3.6,
+    "votes": 143,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "2nd Floor, Garla Garnet, 9th Main, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_113a9cbebf7b",
+    "name": "Hara Fine Dine",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 800,
+    "budget_bucket": "medium",
+    "rating": 4.0,
+    "votes": 633,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "2465, 2nd Floor, Opposite BDA Complex, 24th Cross, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_115639eb16bc",
+    "name": "Vaishali Deluxe",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 700,
+    "budget_bucket": "medium",
+    "rating": 3.8,
+    "votes": 42,
+    "features": [
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "512, 2nd Cross, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_128129064740",
+    "name": "The Spice Saga",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "Biryani",
+      "North Indian",
+      "Chinese",
+      "Seafood"
+    ],
+    "cost_for_two": 750,
+    "budget_bucket": "medium",
+    "rating": 3.7,
+    "votes": 124,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "642, 14th Main, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_1348cbdb8ee7",
+    "name": "Chats Point",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Fast Food",
+      "Street Food"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 3.4,
+    "votes": 8,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "14/1 5 th Main 2nd Cross, Near BMS Hostel, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_14e6a5035dca",
+    "name": "Stop 'N' Joy",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Fast Food"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 28,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "30, 7th Cross, Dwaraka Nagar, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_153c33644b31",
+    "name": "Cake Ghar",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Bakery"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 15,
+    "features": [
+      "online_delivery",
+      "bakery",
+      "delivery"
+    ],
+    "address": "24, Next to Roti Ghar, Gandhi Bazaar Main Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_15aa009c2f6a",
+    "name": "Five Star Chicken",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Fast Food",
+      "Burger"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 55,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "484/A, 1st Stage, 2nd Block, 4th Main Rd, SBM Colony, Seetha Circle, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_1603a5568789",
+    "name": "Krishna Sagar",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 31,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "38, 22nd Main, 22nd Cross, Opposite BDA, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_160bfa35d657",
+    "name": "Davanagere Benne Dose Hut",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 100,
+    "budget_bucket": "low",
+    "rating": 3.4,
+    "votes": 10,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "Shop 97, 22nd Main Road, Near Banashankari BDA complex, Banashankari Stage II, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_1631e11c9b07",
+    "name": "Chung Wah",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Chinese",
+      "Thai",
+      "Momos"
+    ],
+    "cost_for_two": 850,
+    "budget_bucket": "medium",
+    "rating": 3.7,
+    "votes": 323,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "63, 18th Cross, 3rd Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_188b8078bef7",
+    "name": "Andhra Ruchulu",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Andhra",
+      "Biryani",
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 1000,
+    "budget_bucket": "medium",
+    "rating": 4.1,
+    "votes": 666,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "casual_dining",
+      "bar",
+      "delivery"
+    ],
+    "address": "The President Hotel, 79/8, Diagonal Road, 3rd Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_18e38ed565a9",
+    "name": "Kamat Bugle Rock",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "South Indian",
+      "Fast Food"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 543,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1, 5th Main Road, Bull Temple Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_18fe7922f2d9",
+    "name": "Keventers",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Desserts",
+      "Beverages",
+      "Ice Cream"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 54,
+    "features": [
+      "online_delivery",
+      "beverage_shop",
+      "dessert_parlor",
+      "delivery"
+    ],
+    "address": "2465, 24th Cross, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_195d3b051992",
+    "name": "Domino's Pizza",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Pizza",
+      "Fast Food"
+    ],
+    "cost_for_two": 800,
+    "budget_bucket": "medium",
+    "rating": 3.9,
+    "votes": 540,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "645, 1st Floor, 24th Cross, 24th Main, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_196aece5f7ce",
+    "name": "CAFE NOVA",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Cafe",
+      "Bakery"
+    ],
+    "cost_for_two": 600,
+    "budget_bucket": "medium",
+    "rating": 3.2,
+    "votes": 11,
+    "features": [
+      "cafe",
+      "cafes"
+    ],
+    "address": "101, Water Tank Road, 2nd Block, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_1979ba6a9143",
+    "name": "Parjanya Chat Zone",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Street Food",
+      "Fast Food"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.3,
+    "votes": 17,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "68, Opposite ICICI Bank, 21st Main Road, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_1a85c40d4830",
+    "name": "Curry Leaves",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Andhra",
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 800,
+    "budget_bucket": "medium",
+    "rating": 4.1,
+    "votes": 176,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "15, 1st Main, Kariyappa Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_1ad3dfdfb7fd",
+    "name": "Cake of the Day",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Bakery"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 78,
+    "features": [
+      "bakery",
+      "dessert_parlor",
+      "delivery"
+    ],
+    "address": "295/B, 7th Main Road, 100 Feet Ring Road, 7th Block, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_1de6d7b0ec51",
+    "name": "Karavali Family Restaurant",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Seafood",
+      "Biryani",
+      "South Indian",
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 90,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "13, 27th B Cross, 10th Main, Opposite BWSSB Water Tank, Geetha Colony, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_1f23dcdbfdd7",
+    "name": "Kirthi's Biryani",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Chinese",
+      "Cafe",
+      "Italian"
+    ],
+    "cost_for_two": 700,
+    "budget_bucket": "medium",
+    "rating": 3.8,
+    "votes": 144,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "cafes"
+    ],
+    "address": "405, 24th Cross, 9th Main, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_1fc6736b64e6",
+    "name": "Empire Restaurant",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "North Indian",
+      "Mughlai",
+      "South Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 750,
+    "budget_bucket": "medium",
+    "rating": 4.4,
+    "votes": 4884,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "4, Opposite NMKRV College, 21st C Cross Road, 3rd Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_20276bf4c57b",
+    "name": "Castle Rock",
+    "city": "bangalore",
+    "area": "Uttarahalli",
+    "cuisines": [
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 700,
+    "budget_bucket": "medium",
+    "rating": 3.6,
+    "votes": 172,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "1/2, Opposite Indian Oil Petrol Bunk, 1st Cross, Kaderanhalli Crossroad, Subramanyapura Main Road, Padmanabhanagar, Uttarahalli, Bangalore"
+  },
+  {
+    "id": "rest_202e7663b1fd",
+    "name": "Sagar Deluxe",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Juices"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.2,
+    "votes": 167,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1761, Near Swathi Nursing Home, 14th Main Road, 1st Stage, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_204434ad6b95",
+    "name": "Cafe Aira",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Cafe",
+      "Continental",
+      "Beverages",
+      "Desserts"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 4.1,
+    "votes": 216,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "delivery"
+    ],
+    "address": "23, Kanakapura Road, Near SRS Petrol Pump, Lalbagh West Gate, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_21516e64d193",
+    "name": "Mangalore Pearl",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Mangalorean",
+      "Seafood",
+      "Chinese",
+      "Biryani"
+    ],
+    "cost_for_two": 650,
+    "budget_bucket": "medium",
+    "rating": 3.8,
+    "votes": 242,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "197/F, 8th B Main, 27th Cross, 3rd Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_21aaae1e6677",
+    "name": "Paratha Merchant",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "North Indian"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.1,
+    "votes": 39,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "31, 2nd Cross, Teacher's Colony, JP Nagar Post, Dayanand College Road, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_21b1db1a07cc",
+    "name": "Karavali Lunch Home",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "South Indian",
+      "Mangalorean"
+    ],
+    "cost_for_two": 350,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 51,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1779, 14th Main, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_221552e61a96",
+    "name": "As On Fire",
+    "city": "bangalore",
+    "area": "South Bangalore",
+    "cuisines": [
+      "Pizza",
+      "Fast Food",
+      "Bbq"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 41,
+    "features": [
+      "online_delivery",
+      "food_truck",
+      "delivery"
+    ],
+    "address": "75, 21st Main Road, Siddanna Layout, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_22849dd3abc1",
+    "name": "Maruthi Davangere Benne Dosa",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 4.0,
+    "votes": 17,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "556/A, Water Tank Road, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_2326390cf7fd",
+    "name": "Sandwichwallas",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Fast Food"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 35,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "278, 37th A Cross, 2nd Main, 8th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_23502c34c380",
+    "name": "New Gowda's Fried Chicken",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Biryani"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.3,
+    "votes": 12,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "4th Cross Road, Byatarayanapura, Srinagar, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_2355779cf399",
+    "name": "South Point Pub",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "North Indian",
+      "Seafood",
+      "Chinese"
+    ],
+    "cost_for_two": 800,
+    "budget_bucket": "medium",
+    "rating": 3.4,
+    "votes": 11,
+    "features": [
+      "online_delivery",
+      "bar",
+      "delivery"
+    ],
+    "address": "54, Rashtriya Vidyalaya Road, 2nd Block, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_23e6ffe6052d",
+    "name": "The Vintage Cafe",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Cafe",
+      "French",
+      "North Indian"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.0,
+    "votes": 62,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "cafes"
+    ],
+    "address": "146, 50 ft Road, 3rd Phase, 3rd Stage, Near Katriguppe Water Tank Circle, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_2486dda52704",
+    "name": "Prems Graama Bhojanam",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 4.3,
+    "votes": 322,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "234, 32 A Cross, 2nd Main Road, 7th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_248a62d13612",
+    "name": "Dodda Mane Baaduta",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "South Indian",
+      "Chinese",
+      "Biryani"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 15,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "3313, Vishwabharati Layout, 80 Feet Road, Girinagar, 4th Phase, Stage 3, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_25020886194c",
+    "name": "Foodizo",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Desserts",
+      "Fast Food",
+      "Continental"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 24,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "17, Near BDA Complex, 25th Cross Road, 21st Main, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_25953bb240be",
+    "name": "South Grand",
+    "city": "bangalore",
+    "area": "Uttarahalli",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Beverages"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.4,
+    "votes": 102,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "23, 7th Main, KSRTC Layout, Chikkalsandra, Main Road, Uttarahalli, Bangalore"
+  },
+  {
+    "id": "rest_25cdde764761",
+    "name": "Sri Krishna Darshini",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.1,
+    "votes": 4,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "60/2, Sajjan Rao Circle, V V Puram, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_2619052c9f14",
+    "name": "Bakers Town",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "Cafe",
+      "Continental",
+      "Fast Food"
+    ],
+    "cost_for_two": 650,
+    "budget_bucket": "medium",
+    "rating": 3.8,
+    "votes": 77,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "delivery"
+    ],
+    "address": "269, JHBCS Layout, 2nd Main Road, Teacher's Colony, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_262a1dd96f07",
+    "name": "Tasty Bytes",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "North Indian",
+      "Chinese",
+      "Momos",
+      "Rolls"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.1,
+    "votes": 245,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1607, Sagar Hospital Road, Near Dayanandasagar College, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_265d07f7d1b0",
+    "name": "Vietnamese Kitchen",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Vietnamese"
+    ],
+    "cost_for_two": 700,
+    "budget_bucket": "medium",
+    "rating": 3.6,
+    "votes": 105,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "Pavanashree Nilayam, 7 Block, Banagirinagara, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_267c5b74a697",
+    "name": "T3H Cafe",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Cafe",
+      "Italian",
+      "American"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 93,
+    "features": [
+      "cafe",
+      "cafes"
+    ],
+    "address": "504, CJ Venkata Das Road, Padmanabhangar, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_26bd55b102b4",
+    "name": "Szechuan Dragon",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Chinese",
+      "Thai",
+      "Momos"
+    ],
+    "cost_for_two": 600,
+    "budget_bucket": "medium",
+    "rating": 4.2,
+    "votes": 1647,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "8, 2nd Floor, 1st Main, Arush Trapeze, Mount Joy Road, Behind BMS College of Engineering, Hanumanthnagar, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_26ff75112142",
+    "name": "FreshMenu",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Healthy Food",
+      "Chinese",
+      "Biryani",
+      "North Indian",
+      "Continental",
+      "Salad",
+      "American",
+      "Burger"
+    ],
+    "cost_for_two": 450,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 627,
+    "features": [
+      "online_delivery",
+      "delivery"
+    ],
+    "address": "10, Stavyah Arcade, 3rd Floor 9th Main, Yarab Nagar Main Road, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_2839433b93ae",
+    "name": "Potato House",
+    "city": "bangalore",
+    "area": "Uttarahalli",
+    "cuisines": [
+      "Street Food"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.4,
+    "votes": 9,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "9, Canara Bank Colony, Opposite Chikkalsandra Post Office, Main Road, Uttarahalli, Bangalore"
+  },
+  {
+    "id": "rest_29274163279e",
+    "name": "Eurasia Pasta and Barbeque by Little Italy",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Italian",
+      "Fast Food",
+      "Salad",
+      "Bbq"
+    ],
+    "cost_for_two": 1200,
+    "budget_bucket": "medium",
+    "rating": 4.1,
+    "votes": 1063,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "casual_dining",
+      "bar",
+      "delivery"
+    ],
+    "address": "12, 32nd Cross, 7th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_2934cc1a96e5",
+    "name": "Biggies Burger 'n' More",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "Cafe",
+      "Burger",
+      "Beverages"
+    ],
+    "cost_for_two": 650,
+    "budget_bucket": "medium",
+    "rating": 3.6,
+    "votes": 58,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "173, DSI college Road, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_29b52ee55645",
+    "name": "Mojo Pizza - 2X Toppings",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Pizza"
+    ],
+    "cost_for_two": 600,
+    "budget_bucket": "medium",
+    "rating": 4.2,
+    "votes": 179,
+    "features": [
+      "online_delivery",
+      "delivery"
+    ],
+    "address": "287, 1st Floor, 7th Block, 100 Feet Ring Road, Phase 4, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_2b0d6a0cbdc6",
+    "name": "BOX8- Desi Meals",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "Mughlai",
+      "Fast Food"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 4.1,
+    "votes": 340,
+    "features": [
+      "online_delivery",
+      "takeaway",
+      "delivery"
+    ],
+    "address": "100 Feet Ring Road, 2nd Phase, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_2b22010546c2",
+    "name": "Kholi Mane",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Andhra",
+      "South Indian",
+      "Biryani",
+      "North Indian"
+    ],
+    "cost_for_two": 450,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 46,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "144/1, 2nd Main Road, 2nd Block, Thyagaraja Nagar, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_2b2a7e4fb6c8",
+    "name": "Banashankari Donne Biriyani",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Biryani",
+      "Fast Food"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 104,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "218/1,11th Main, 50 Feet Road, Hanumanthnagar, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_2b2f6cba774e",
+    "name": "The Krishna Grand",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "South Indian",
+      "Chinese",
+      "Fast Food",
+      "Juices"
+    ],
+    "cost_for_two": 750,
+    "budget_bucket": "medium",
+    "rating": 3.9,
+    "votes": 888,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "1, Monotype, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_2b9ac7a0432c",
+    "name": "Donne Biriyani House",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Biryani"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 441,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "4009, 80 Feet Road, 4th Phase, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_2c1202b8f282",
+    "name": "Cuppa",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Cafe",
+      "Fast Food"
+    ],
+    "cost_for_two": 550,
+    "budget_bucket": "medium",
+    "rating": 3.3,
+    "votes": 23,
+    "features": [
+      "cafe",
+      "cafes"
+    ],
+    "address": "940, Shantha Complex, 20th Main, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_2c1e55d276a8",
+    "name": "LSD Cafe",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Chinese",
+      "Continental",
+      "Italian",
+      "North Indian"
+    ],
+    "cost_for_two": 700,
+    "budget_bucket": "medium",
+    "rating": 2.9,
+    "votes": 84,
+    "features": [
+      "delivery"
+    ],
+    "address": "100 Feet Road, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_2cfd7912280a",
+    "name": "Re Malnad Nati Style Hotel",
+    "city": "bangalore",
+    "area": "JP Nagar",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 16,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "6, Shakambari Nagar, 1st stage, JP Nagar, Bangalore"
+  },
+  {
+    "id": "rest_2d1318d2451e",
+    "name": "AM WOW",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Beverages"
+    ],
+    "cost_for_two": 100,
+    "budget_bucket": "low",
+    "rating": 3.4,
+    "votes": 6,
+    "features": [
+      "online_delivery",
+      "beverage_shop",
+      "delivery"
+    ],
+    "address": "615, Janardhan Mansion, 32nd D Cross Road, 10th C Main Road, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_2df2ca7a75dd",
+    "name": "Ande Ka Funda",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "Fast Food",
+      "Rolls"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 120,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "9/1, Behind BMS College Hostel, Hanumantha Nagar, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_319e08ab70ff",
+    "name": "Udupi Ruchi",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Street Food"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 57,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "31/1, Puttalingaiah Road, Second Stage, Bangalore, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_3212bb6e0b98",
+    "name": "Navi Food Point",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Fast Food"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 22,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "142/1,Surveyor Street, Gandhi Bazaar, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_327df8ea34d4",
+    "name": "Burger King",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Burger",
+      "Fast Food",
+      "Beverages"
+    ],
+    "cost_for_two": 600,
+    "budget_bucket": "medium",
+    "rating": 3.2,
+    "votes": 71,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "59/3, Ground & First Floor, West Anjaneya Temple Road, Ward 49, Gandhi Bazaar, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_32ba1b5d3287",
+    "name": "Punjabi Raswada",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "North Indian"
+    ],
+    "cost_for_two": 800,
+    "budget_bucket": "medium",
+    "rating": 3.5,
+    "votes": 431,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "SM Towers, Near Cosmopolitan Club, 4/3/1 & 3/2, 1st Floor, 11th Main, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_33420c49a329",
+    "name": "Big Mishra Pedha",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Mithai"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 2.9,
+    "votes": 23,
+    "features": [
+      "online_delivery",
+      "sweet_shop",
+      "delivery"
+    ],
+    "address": "1/72, 27th Cross, Opposite To Janatha Bazar, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_33d29e689674",
+    "name": "Bangarpet Chat Express",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Street Food",
+      "Fast Food"
+    ],
+    "cost_for_two": 100,
+    "budget_bucket": "low",
+    "rating": 3.3,
+    "votes": 6,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "318, Old market Road V.V.Puram, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_33e2a6e70f07",
+    "name": "Utsav",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "Street Food"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 59,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "46, 80 Feet Road, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_349612ecef8c",
+    "name": "Caf\u00c3\u0083\u00c2\u0083\u00c3\u0082\u00c2\u0083\u00c3\u0083\u00c2\u0082\u00c3\u0082\u00c2\u0083\u00c3\u0083\u00c2\u0083\u00c3\u0082\u00c2\u0082\u00c3\u0083\u00c2\u0082\u00c3\u0082\u00c2\u00a9 Down The Alley",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Cafe"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 4.1,
+    "votes": 402,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "cafes"
+    ],
+    "address": "12,29 Near PES University Back Gate, D'Souza Nagar, Hosakerehalli, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_37ed064c4923",
+    "name": "Pizza Mane",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Pizza",
+      "Sandwich",
+      "Burger",
+      "Fast Food"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 32,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "9/63, 1st C Main Road, Kathreguppe, Vivekananda Nagar, Banashankri, Bangalore"
+  },
+  {
+    "id": "rest_3906607dd64d",
+    "name": "Ivy",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "North Indian",
+      "Chinese",
+      "Fast Food"
+    ],
+    "cost_for_two": 600,
+    "budget_bucket": "medium",
+    "rating": 3.8,
+    "votes": 210,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "1616, 50 Feet Main Road, 1st Stage, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_393959690003",
+    "name": "Ayodhya Upachar",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Street Food"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 4.3,
+    "votes": 734,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "199/1, Ajanaya Bhavana, 100 Feet Ring Road, Kathriguppe, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_3af49a68680e",
+    "name": "Funjabi Curries",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 2.9,
+    "votes": 11,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "476, 2nd Floor, 9th Cross, Avalahalli, Banashankari, Bengaluru"
+  },
+  {
+    "id": "rest_3b4d6e711132",
+    "name": "The Chaat Shop",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Fast Food"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 2.5,
+    "votes": 35,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "11/4, Old Market Road, V V Puram, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_3ce698bcb56f",
+    "name": "Kitchen Garden",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 244,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1750, 14th Main, Police Station Road, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_3d17c5467d30",
+    "name": "Chai Kraft",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Beverages",
+      "Tea"
+    ],
+    "cost_for_two": 100,
+    "budget_bucket": "low",
+    "rating": 4.1,
+    "votes": 30,
+    "features": [
+      "online_delivery",
+      "beverage_shop",
+      "delivery"
+    ],
+    "address": "146, 6th C Main Road, 1st Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_3eaa822d71fc",
+    "name": "Amande Patisserie",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Bakery",
+      "French",
+      "Desserts"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 4.0,
+    "votes": 73,
+    "features": [
+      "online_delivery",
+      "bakery",
+      "delivery"
+    ],
+    "address": "115, 4th Main, 4th Stage, Thyagarajanagar, Near, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_3ef03022a653",
+    "name": "SLV Upachar",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "South Indian",
+      "Chinese",
+      "Street Food"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 3.1,
+    "votes": 14,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1328, 50 Feet Road, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_3f4aad1f4958",
+    "name": "Redberrys",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Cafe",
+      "Italian"
+    ],
+    "cost_for_two": 600,
+    "budget_bucket": "medium",
+    "rating": 4.0,
+    "votes": 219,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "cafes"
+    ],
+    "address": "30, Surveyor Street, DVG Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_3f72ce387cbe",
+    "name": "Anna Kuteera",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 450,
+    "budget_bucket": "low",
+    "rating": 4.0,
+    "votes": 771,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "21, 80 Feet Road, 3rd Phase, 4th Block, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_3fcb23467305",
+    "name": "Wamama",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Asian",
+      "Korean",
+      "Indonesian",
+      "Japanese",
+      "Chinese",
+      "Thai",
+      "Momos"
+    ],
+    "cost_for_two": 800,
+    "budget_bucket": "medium",
+    "rating": 4.2,
+    "votes": 354,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "2466, Bhaskar Grand Tower, 24th Cross, Opposite BDA Complex, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_401eb8adf3d7",
+    "name": "McDonald's",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Burger",
+      "Fast Food"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 286,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "2466, Bhaskar Grand Tower, 24th Cross, Opposite BDA Complex, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_402cbd608706",
+    "name": "Corner House Ice Cream",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Ice Cream",
+      "Desserts"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 4.3,
+    "votes": 345,
+    "features": [
+      "dessert_parlor",
+      "delivery"
+    ],
+    "address": "808/6-1, 24th A Cross, K.R Road, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_41de0efa91fa",
+    "name": "SLV Corner Restaurant",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "South Indian",
+      "Chinese",
+      "North Indian",
+      "Street Food",
+      "Rolls",
+      "Juices"
+    ],
+    "cost_for_two": 550,
+    "budget_bucket": "medium",
+    "rating": 4.1,
+    "votes": 364,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "42, Vani Vilas Road, Ramakrishna Ashrama Circle, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_42b3eb92b0c1",
+    "name": "Sri Krishna Aramane",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Fast Food"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 40,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1832, 14th Cross Road, 2nd Stage, Bendre Nagar, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_42f3b531cf65",
+    "name": "Kataria's Pakwan",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "North Indian"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.2,
+    "votes": 96,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "31, 2nd Cross, 1st Stage, Padmanabh Nagar, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_435c3743b17c",
+    "name": "Catch-up-ino",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Cafe",
+      "Fast Food",
+      "Continental",
+      "Chinese",
+      "Momos"
+    ],
+    "cost_for_two": 800,
+    "budget_bucket": "medium",
+    "rating": 3.9,
+    "votes": 133,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "cafes"
+    ],
+    "address": "241, 4th Floor, 100 Feet Ring Road, Opposite Kamakya Theatre, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_438238bab401",
+    "name": "Rustic Stove",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "North Indian",
+      "South Indian",
+      "Biryani",
+      "Beverages"
+    ],
+    "cost_for_two": 900,
+    "budget_bucket": "medium",
+    "rating": 3.8,
+    "votes": 577,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "13, 32nd Cross, 7th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_443d1c869127",
+    "name": "De Thaali",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "North Indian",
+      "Chinese",
+      "Rolls"
+    ],
+    "cost_for_two": 550,
+    "budget_bucket": "medium",
+    "rating": 3.9,
+    "votes": 144,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "137/4, 8th Main Road, 27th Cross, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_447afd7f467b",
+    "name": "Dining Hut",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "North Indian",
+      "Chinese",
+      "South Indian"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 10,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1080, Near Niligiris, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_45d94a6f58b9",
+    "name": "Bangalore Agarwal Bhavan",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Street Food",
+      "North Indian",
+      "South Indian"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 134,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "36/1, 27th Cross, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_46b21ea2073a",
+    "name": "Chai Mane",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Juices",
+      "Fast Food"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 20,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "17,Bull Temple, Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_475a19aa618e",
+    "name": "By 2 Coffee",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 100,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 25,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "12, Old 387, Market Road, V.V.Puram, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_478f6b1c6684",
+    "name": "XO Belgian Waffle",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Desserts",
+      "Beverages"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 17,
+    "features": [
+      "online_delivery",
+      "dessert_parlor",
+      "delivery"
+    ],
+    "address": "18, B K Complex, Opposite To BDA Complex, 21st, Main Road, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_479c3c52d103",
+    "name": "Puliyogare Point",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 100,
+    "budget_bucket": "low",
+    "rating": 4.2,
+    "votes": 444,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "81, East Anjaneya Street, NR Colony, Near Basavanagudi, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_489bc1c3c399",
+    "name": "Hide Out Cafe",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Cafe"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 31,
+    "features": [
+      "cafe",
+      "cafes"
+    ],
+    "address": "775/1, Opposite Gupta Collage, 7th Block, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_48d05f357500",
+    "name": "Janahaar",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 100,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 70,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "162 , Kathreguppe Cross Road, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_4aa5a03d6da0",
+    "name": "Dakshin Cafe",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 100,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 19,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1061, Gowrisutha, 50 Feet Rd, 1st Stage, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_4afdafa49641",
+    "name": "The Coffee Shack",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Cafe",
+      "Chinese",
+      "Continental",
+      "Italian"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 4.2,
+    "votes": 164,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "cafe",
+      "cafes"
+    ],
+    "address": "6th Block, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_4b24a5e63057",
+    "name": "The Good Bowl",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Italian",
+      "North Indian",
+      "Biryani"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 6,
+    "features": [
+      "online_delivery",
+      "takeaway",
+      "delivery"
+    ],
+    "address": "101, Ground Floor, Manjunatha Complex, 22nd Main Road, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_4b7d36bdd956",
+    "name": "Seven Star",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 3.4,
+    "votes": 7,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "23/35, 7th Cross, Dwarakanagar, Hosakerhalli, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_4b7fb616b095",
+    "name": "Shakes Theory",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Beverages",
+      "Sandwich"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 4.5,
+    "votes": 155,
+    "features": [
+      "online_delivery",
+      "beverage_shop",
+      "delivery"
+    ],
+    "address": "766/25-01, 47th A Cross, Near Sangam Circle, Adarsh Gardens Apartments Road, 8th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_4b9a0a93b985",
+    "name": "Swadd Kitchen",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "North Indian",
+      "Fast Food"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 3.4,
+    "votes": 4,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "32/2, DVG Road, Basavanagudi, Karnataka, Bangalore"
+  },
+  {
+    "id": "rest_4c7749e51f41",
+    "name": "Mast Punjabi",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "North Indian",
+      "Chinese",
+      "Rolls",
+      "Biryani",
+      "Kebab"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 2.6,
+    "votes": 231,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "534, 49th Cross, 50 Feet Road, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_4c82e26c68e5",
+    "name": "Lassi Stop",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Beverages",
+      "Fast Food",
+      "Juices"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 3.4,
+    "votes": 12,
+    "features": [
+      "online_delivery",
+      "beverage_shop",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "11,12, 80 Feet Road, Behind Reliance Fresh, Banashankri, Bangalore"
+  },
+  {
+    "id": "rest_4c82f3128143",
+    "name": "Kaggis",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Fast Food",
+      "Bakery"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 64,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "50 Feet Road, Hanumanthanagar, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_4c857fbe8f03",
+    "name": "Subz",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "North Indian",
+      "South Indian"
+    ],
+    "cost_for_two": 1000,
+    "budget_bucket": "medium",
+    "rating": 4.2,
+    "votes": 2022,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "Cosmopolitan Club, Ground Floor, 22nd Cross, 3rd Block, Jayanagar, Bengalore"
+  },
+  {
+    "id": "rest_4cc133db3a4d",
+    "name": "Cafe Zone",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "Fast Food",
+      "Chinese",
+      "Rolls"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 149,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "2nd Cross, JHBCS Layout, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_4cc19a6d29e2",
+    "name": "Sri Sai Cafe",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 10,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "117, Govindadappa Road, Gandhi Bazar, Basavangudi, Bangalore"
+  },
+  {
+    "id": "rest_4de21045e029",
+    "name": "Aramane Donne Biryani",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Biryani"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 57,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "3-94/1, 80 Feet Road, Near New Big Bazaar, Kathriguppe, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_4ee732c7ebbd",
+    "name": "Chai Point",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Tea",
+      "Beverages",
+      "Fast Food"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 3.2,
+    "votes": 208,
+    "features": [
+      "online_delivery",
+      "beverage_shop",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "525/2, Opposite Lacasa, 10th Main, 33rd Cross, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_4f2e708c44d9",
+    "name": "Upahara Darshini",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 339,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "9A Main Road, 3rd Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_4fe7a6af95fb",
+    "name": "New Prashanth Hotel",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Biryani",
+      "North Indian",
+      "Seafood",
+      "Andhra"
+    ],
+    "cost_for_two": 650,
+    "budget_bucket": "medium",
+    "rating": 3.9,
+    "votes": 388,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "43/2, 100 Feet Road, Kamakya Complex, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_50d8716c19fe",
+    "name": "Vijayalakshmi",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 47,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "No.37, Shree Complex, Next to Dominoes Pizza, Bull temple Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_50fab35fc53e",
+    "name": "Al Diwan Biryanis And More",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Biryani"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.3,
+    "votes": 12,
+    "features": [
+      "online_delivery",
+      "takeaway",
+      "delivery"
+    ],
+    "address": "11/2, Ground Floor, Khazi Street, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_529c2ca91af9",
+    "name": "Happy Chopsticks",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Chinese",
+      "Fast Food"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 17,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "3/1, Bugle Rock Road, Gandhi Bazaar, Basavanagudi"
+  },
+  {
+    "id": "rest_52d16c58d5fb",
+    "name": "Hotboxit",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "Continental",
+      "Italian"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 36,
+    "features": [
+      "delivery"
+    ],
+    "address": "2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_52fdd17af460",
+    "name": "Waffle-A-Go Go",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Fast Food",
+      "Desserts",
+      "Ice Cream"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 70,
+    "features": [
+      "online_delivery",
+      "dessert_parlor",
+      "delivery"
+    ],
+    "address": "599, 24th Cross, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_52ffdc8219fd",
+    "name": "Spice 9",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Biryani",
+      "North Indian",
+      "Chinese",
+      "Fast Food"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.4,
+    "votes": 8,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "Number 42, 4th Block, 6th Stage Banashankari, Vrishabhvachi Nagar, Opposite RV College of Architecture, Bangalore"
+  },
+  {
+    "id": "rest_53035631e8e9",
+    "name": "Juicy Momos",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Tibetan",
+      "Momos"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 80,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "32, 22nd Cross, 22nd Main, 2nd Stage, Near BDA Complex, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_538292529f07",
+    "name": "Daal Roti",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 2.9,
+    "votes": 35,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "139, Behind Police Station, 72nd Cross, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_54e4893bfe36",
+    "name": "Shree Mahalakshmi Sweets",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Mithai",
+      "Street Food"
+    ],
+    "cost_for_two": 100,
+    "budget_bucket": "low",
+    "rating": 3.2,
+    "votes": 8,
+    "features": [
+      "online_delivery",
+      "sweet_shop",
+      "delivery"
+    ],
+    "address": "344, 50 Feet Road, Dasarhalli, Srinagar, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_54e703380711",
+    "name": "Udupi Grand",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 74,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "49, South End Road, Nagasandra Circle, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_561bda2f829c",
+    "name": "Mr. Singh Da Dhaba",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 241,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "Near Dayananda Sagar College, Teachers Colony, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_564af921b4a5",
+    "name": "Polar Bear",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Ice Cream",
+      "Desserts",
+      "Beverages",
+      "Sandwich"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 71,
+    "features": [
+      "online_delivery",
+      "dessert_parlor",
+      "delivery"
+    ],
+    "address": "96, Opposite Jain Collage, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_58cef552cd46",
+    "name": "Chilli Flakes",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Fast Food",
+      "Italian",
+      "Beverages"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 46,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "Opposite BNM School, Near BDA complex, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_5971529426a5",
+    "name": "Sri Krishna Sweets",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Mithai",
+      "Desserts"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 22,
+    "features": [
+      "online_delivery",
+      "sweet_shop",
+      "delivery"
+    ],
+    "address": "121, DVG Road, R.M Complex, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_59a36c5f71d8",
+    "name": "Stoned Monkey",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Desserts",
+      "Ice Cream"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 4.3,
+    "votes": 860,
+    "features": [
+      "online_delivery",
+      "dessert_parlor",
+      "delivery"
+    ],
+    "address": "415, 9th Main, 24th Cross, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_59a4a569e940",
+    "name": "Meat And Eat",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Fast Food",
+      "Burger"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 3.1,
+    "votes": 10,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "241, 100 Feet Road, Opposite Eshwari Theater, 3rd stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_5a531b0b7655",
+    "name": "Lalbagh Grand",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 3.0,
+    "votes": 22,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1, Krishna Rao Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_5bcc38438e0e",
+    "name": "Chickpet Donne Biryani House",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Biryani"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 21,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "480/A, 50 feet road, Nagendra block, Near PES College, Nagendra block, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_5bcee08f894b",
+    "name": "Roll N Rock",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "Chinese",
+      "North Indian",
+      "Mughlai",
+      "Rolls"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 124,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "608, 21st Cross, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_5bf484aeb7ee",
+    "name": "Chumma Delicious",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian",
+      "Fast Food"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 237,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "412, 1st Cross, Vidyapeeta Road, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_5c27d20dd905",
+    "name": "Cakes & Slices",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Bakery",
+      "Desserts"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 13,
+    "features": [
+      "bakery",
+      "delivery"
+    ],
+    "address": "27, 80 Feet Road, Srinivasnagar, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_5d013a10b8f7",
+    "name": "New Mangalore Lunch Home",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Mangalorean",
+      "South Indian",
+      "North Indian"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.3,
+    "votes": 7,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "89, Near PES College, 22nd Main Road, Girinagar, 1st Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_5d12768ab7e6",
+    "name": "Just Bake",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Bakery",
+      "Desserts"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.4,
+    "votes": 8,
+    "features": [
+      "bakery",
+      "delivery"
+    ],
+    "address": "3967, VHBC Society, Girinagar Phase 4, Hosekerehalli Mani Road, Banashankari 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_5e53a86b994b",
+    "name": "New Rajadhani Spicy",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "North Indian"
+    ],
+    "cost_for_two": 700,
+    "budget_bucket": "medium",
+    "rating": 3.7,
+    "votes": 67,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "16, Lalitha Enterprises, Kadirenahalli Main, Bendre Nagar, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_5e6feb31d2a0",
+    "name": "Mulabagilu Dosa",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 100,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 11,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "19, V.V.puram National School Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_5eaf926eb61e",
+    "name": "Srikrishna Bhavan",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 42,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "Next To BMTC Bus Stand, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_5f5ce2c00513",
+    "name": "HOT COFFEE",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "South Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 4.1,
+    "votes": 70,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "79, Vanivilas Road, Next to KFC, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_61a574760a22",
+    "name": "Pure & Natural",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Fast Food",
+      "Continental",
+      "Beverages",
+      "Salad",
+      "Healthy Food"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 211,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "Near National College, 7th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_626611f5d348",
+    "name": "New Biryani Mane",
+    "city": "bangalore",
+    "area": "Uttarahalli",
+    "cuisines": [
+      "North Indian",
+      "Chinese",
+      "Biryani",
+      "South Indian"
+    ],
+    "cost_for_two": 450,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 128,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "2, Chikkalsandra, Uttarahalli Main Road, Uttarahalli, Bangalore"
+  },
+  {
+    "id": "rest_6273623da56a",
+    "name": "Sri Krishna Sagar",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.2,
+    "votes": 119,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "22nd Cross, 22nd Main Road, 2nd Stage, Near BDA Complex, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_631c82f758d3",
+    "name": "Kapoor's Cafe",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "North Indian"
+    ],
+    "cost_for_two": 800,
+    "budget_bucket": "medium",
+    "rating": 4.2,
+    "votes": 150,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "Bengaluru, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_6329914bc2ef",
+    "name": "Matru Sagar",
+    "city": "bangalore",
+    "area": "Mysore Road",
+    "cuisines": [
+      "South Indian",
+      "North Indian"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 31,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "Sri Balaji Complex, 339/3, Kuvempu Nagar, Next to Bus Stand, Mysore Road, Bangalore"
+  },
+  {
+    "id": "rest_633dd4208955",
+    "name": "Kolbeh",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Fast Food"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 22,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1430, 22nd Cross, Next To Coffee Day, Near BDA Complex, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_642af3205e36",
+    "name": "Cafe Ajfan",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Cafe",
+      "Continental",
+      "Beverages"
+    ],
+    "cost_for_two": 700,
+    "budget_bucket": "medium",
+    "rating": 4.2,
+    "votes": 261,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "delivery"
+    ],
+    "address": "Shop 66/1, 4th Block, Near Maiys Hotel, 33rd Cross Road, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_645886f9e526",
+    "name": "Sweet Truth",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Bakery",
+      "Desserts"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 35,
+    "features": [
+      "online_delivery",
+      "delivery"
+    ],
+    "address": "101 Ground Floor, Manjunatha Complex, 22nd Main Road, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_648330f339a6",
+    "name": "Diabetics Dezire Sugarless Sweets and Bakes",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Desserts",
+      "Mithai"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.3,
+    "votes": 13,
+    "features": [
+      "online_delivery",
+      "dessert_parlor",
+      "sweet_shop",
+      "delivery"
+    ],
+    "address": "92/1, Gandhi Bazaar Main Road, Basavangudi. Next to Vodafone Showroom, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_649fa3b6662a",
+    "name": "Shawarma Inc",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Rolls",
+      "Lebanese"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 3.1,
+    "votes": 31,
+    "features": [
+      "online_delivery",
+      "takeaway",
+      "delivery"
+    ],
+    "address": "32, 22nd Cross, 22nd Main, 2nd Stage, Near BDA complex, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_64b58a3776ce",
+    "name": "Dakshin Grand",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Street Food"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.0,
+    "votes": 82,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "2, Subramanyapura, Kadirenahalli Overbridge Junction, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_660a7287b39f",
+    "name": "1947",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 850,
+    "budget_bucket": "medium",
+    "rating": 4.0,
+    "votes": 808,
+    "features": [
+      "table_booking",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "296, Ram Towers, 100 Feet Ring Road, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_670f5da5686b",
+    "name": "Yummy Momos",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "Momos",
+      "Tibetan",
+      "Chinese"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.2,
+    "votes": 4,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "Sri Ganesh Fast Food. Opposite Goli ,Dayanand Sagar College Road, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_67cabd79e5a9",
+    "name": "S M V Snacks Corner",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Fast Food"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 33,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "Next to Bhagwan Mahavir Jain College, V V Puram, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_683e3284f5a9",
+    "name": "In Time Cane Juice",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "Juices",
+      "Beverages"
+    ],
+    "cost_for_two": 100,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 10,
+    "features": [
+      "online_delivery",
+      "beverage_shop",
+      "delivery"
+    ],
+    "address": "119, 5th Cross, Teachers Colony, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_694e577c74c8",
+    "name": "Shree Cool Point",
+    "city": "bangalore",
+    "area": "Vijay Nagar",
+    "cuisines": [
+      "Fast Food",
+      "Street Food",
+      "Beverages"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 4.1,
+    "votes": 28,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1514, 4th Cross, 7th Main, RPC layout, 2nd Stage, Vijay Nagar, Bangalore"
+  },
+  {
+    "id": "rest_696cffacd8c5",
+    "name": "Tanna's Kitchen",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "Italian",
+      "Chinese",
+      "Street Food"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 3.1,
+    "votes": 7,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "#72, 3rd Cross DSI Road, Teachers Colony, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_6a8a1e34b908",
+    "name": "Pizza Stop",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Pizza",
+      "Italian"
+    ],
+    "cost_for_two": 600,
+    "budget_bucket": "medium",
+    "rating": 3.8,
+    "votes": 164,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "66/1, Kanakpura Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_6b6cd70ee96e",
+    "name": "Meghana Foods",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Biryani",
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 600,
+    "budget_bucket": "medium",
+    "rating": 4.4,
+    "votes": 4401,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "52, 1st Floor, 33rd Cross, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_6bc4ac19caf0",
+    "name": "Shringar Sweets & Snacks",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Mithai",
+      "South Indian",
+      "Street Food",
+      "Fast Food"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 11,
+    "features": [
+      "online_delivery",
+      "sweet_shop",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "12, Ground Floor, R V Road, Near Southend Metro Station, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_6d115d7dd80b",
+    "name": "Goli Vada Pav No. 1",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Street Food"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 93,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "92/1, Next to Vodafone Store, Gandhi Bazar Main Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_6db5a35a1c74",
+    "name": "Sugar Rush",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Bakery",
+      "Desserts"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 39,
+    "features": [
+      "bakery",
+      "delivery"
+    ],
+    "address": "186, 11th Main, 4th Cross, Hanumanthnagar, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_6e3ec07170ab",
+    "name": "A2B - Adyar Ananda Bhavan",
+    "city": "bangalore",
+    "area": "Mysore Road",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Street Food"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 155,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "153, Satellite Bus Stand, Byataranyapura, Mysore Road, Bangalore"
+  },
+  {
+    "id": "rest_6f26d68b82b9",
+    "name": "Green Gardenia",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 700,
+    "budget_bucket": "medium",
+    "rating": 3.8,
+    "votes": 160,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "376, 1st Floor, Tripura Arcade, MK Puttalingaiah Road, Above SBI Bank, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_6f3dfd7efea7",
+    "name": "Anand Sweets and Savouries",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Mithai",
+      "Street Food"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 84,
+    "features": [
+      "online_delivery",
+      "sweet_shop",
+      "delivery"
+    ],
+    "address": "4 & 5, 27th Cross, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_6f9b89f78fd5",
+    "name": "Goa 0 Km",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "Goan",
+      "Seafood",
+      "North Indian",
+      "Chinese",
+      "Biryani"
+    ],
+    "cost_for_two": 800,
+    "budget_bucket": "medium",
+    "rating": 3.6,
+    "votes": 163,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "1828, 50 Feet Road, 2nd Stage, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_6fedcf95705d",
+    "name": "Havmor",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Ice Cream",
+      "Desserts"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 21,
+    "features": [
+      "online_delivery",
+      "dessert_parlor",
+      "delivery"
+    ],
+    "address": "75, Kanakapura Road, Vasavi Circle, V.V Puram, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_70125dbc25fb",
+    "name": "Juice Junction Food Court",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Juices",
+      "South Indian",
+      "Chinese",
+      "Fast Food"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 57,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "54, Bull Temple Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_70af21d9066f",
+    "name": "Roll Over",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Desserts",
+      "Ice Cream",
+      "Beverages",
+      "Fast Food",
+      "Sandwich"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 4.1,
+    "votes": 438,
+    "features": [
+      "online_delivery",
+      "dessert_parlor",
+      "delivery"
+    ],
+    "address": "1A/29 , Shop 2 , 27th Cross, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_718699a61ff0",
+    "name": "Fudge",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Desserts",
+      "Momos"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 36,
+    "features": [
+      "online_delivery",
+      "dessert_parlor",
+      "delivery"
+    ],
+    "address": "Sri Chakravarthi Complex, Sajjan Rao Circle, V.V. Puram, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_71be514a97d2",
+    "name": "Atithi Point Ande Ka Funda",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 3.1,
+    "votes": 29,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "7/1, Behind BMS College Hostel, 80 Feet Road, 1st Stage, Srinivas Nagar Bank Colony, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_71ce09f657bc",
+    "name": "Kedia's Fun Food",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "North Indian",
+      "Street Food",
+      "Juices"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 4.3,
+    "votes": 630,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "6th C Main, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_7224eeadff17",
+    "name": "Karma Kaapi",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Beverages",
+      "Tea"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 4.4,
+    "votes": 181,
+    "features": [
+      "online_delivery",
+      "beverage_shop",
+      "delivery"
+    ],
+    "address": "81, 36th Cross Road, 5th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_7499440f5cd9",
+    "name": "Nandhini Deluxe",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian"
+    ],
+    "cost_for_two": 600,
+    "budget_bucket": "medium",
+    "rating": 2.6,
+    "votes": 283,
+    "features": [
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "304, Opposite Apollo Public School, 100 Feet Ring Road, 4th Phase, 7th Block, Banashankari 3rd Stage, Bangalore,"
+  },
+  {
+    "id": "rest_74ea88b3b011",
+    "name": "Hotel New Karavali",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Mangalorean",
+      "South Indian",
+      "North Indian"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 133,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "89, Behind Venkateshwara Bar, Near PES College, 1st Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_75e747764547",
+    "name": "Addhuri Udupi Bhojana",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian",
+      "North Indian"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 88,
+    "features": [
+      "quick_bites",
+      "buffet"
+    ],
+    "address": "1st Floor, Annakuteera, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_75e7a658be9a",
+    "name": "Swarga Ruchi",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.3,
+    "votes": 10,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "65, Parvati Bhavan, Appu Rao Road, Chamaraj Pet, Chamarajpet, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_761e89d0813c",
+    "name": "Kababs N Biryani",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.4,
+    "votes": 22,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "406, 2nd Cross, Vidyapeeta Layout, Banashankri, Bangalore"
+  },
+  {
+    "id": "rest_762ba0a3251b",
+    "name": "Vegetalia",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Italian",
+      "Pizza"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 27,
+    "features": [
+      "online_delivery",
+      "takeaway",
+      "delivery"
+    ],
+    "address": "582,2nd Main, 6th Block 2nd Phase Banshankari 3rd Stage Bangalore-560085"
+  },
+  {
+    "id": "rest_7685605c1d43",
+    "name": "Mumbai Badam Milk & Lassi Center",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Beverages",
+      "Desserts"
+    ],
+    "cost_for_two": 100,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 23,
+    "features": [
+      "online_delivery",
+      "kiosk",
+      "delivery"
+    ],
+    "address": "11/3, Old Market Road, V V Puram, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_7786b01f162c",
+    "name": "Anand Donne Biriyani",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Biryani"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 45,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "644, 1 B, Main Road, Kanakapura Road, 8th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_77fbb0aa17d9",
+    "name": "Chocoberry",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Ice Cream",
+      "Desserts",
+      "Beverages"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 56,
+    "features": [
+      "online_delivery",
+      "dessert_parlor",
+      "delivery"
+    ],
+    "address": "30, 8th F Main Road, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_78805b5067ad",
+    "name": "Cafe Coffee Day",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Cafe",
+      "Fast Food"
+    ],
+    "cost_for_two": 900,
+    "budget_bucket": "medium",
+    "rating": 3.2,
+    "votes": 17,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "delivery"
+    ],
+    "address": "28th Main, 8th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_78a85d034dae",
+    "name": "Food Point",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 32,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "139, 72nd Cross, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_797d543264f3",
+    "name": "Crunch and Munch",
+    "city": "bangalore",
+    "area": "Uttarahalli",
+    "cuisines": [
+      "Chinese",
+      "Street Food",
+      "Ice Cream"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 23,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "11, Canara Bank Colony, Uttarahalli, Bangalore"
+  },
+  {
+    "id": "rest_7b0b6c14f6a8",
+    "name": "Kollapuri's",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "South Indian",
+      "Mangalorean"
+    ],
+    "cost_for_two": 450,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 206,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1, Corporation Market, Gandhi Bazar, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_7b539bffdfcf",
+    "name": "Starlite Bakery & Fastfood",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "North Indian",
+      "Chinese",
+      "Rolls",
+      "Bakery",
+      "Arabian",
+      "Charcoal Chicken",
+      "Desserts"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 0,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "25/4, 7th Block K.R Road, 8TH Cross Opposite, HDFC Bank, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_7b6fa1b15844",
+    "name": "Mitraa Da Pizza",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "Fast Food",
+      "Pizza"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 115,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1779, 14th Main, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_7bd5c2b5ee64",
+    "name": "Chetty's Corner",
+    "city": "bangalore",
+    "area": "Uttarahalli",
+    "cuisines": [
+      "Fast Food",
+      "Burger",
+      "Pizza"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.4,
+    "votes": 30,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "126/3, Uttarahalli Main Road, Sarvabouma Nagar, Chikkalasandra, Uttarahalli, Bangalore"
+  },
+  {
+    "id": "rest_7c86e569ddfb",
+    "name": "Aadhya Hotel",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Biryani"
+    ],
+    "cost_for_two": 800,
+    "budget_bucket": "medium",
+    "rating": 3.3,
+    "votes": 5,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "bar",
+      "delivery"
+    ],
+    "address": "215, 2nd Main, Thygarajanagar, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_7ca917e0d55f",
+    "name": "Cafe Coffee Day",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Cafe",
+      "Fast Food"
+    ],
+    "cost_for_two": 900,
+    "budget_bucket": "medium",
+    "rating": 3.6,
+    "votes": 28,
+    "features": [
+      "cafe",
+      "cafes"
+    ],
+    "address": "SRF Complex, Near BDA Complex, Kathreguppe Main Road, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_7d459ec3b5be",
+    "name": "Namma Brahmin's Idli",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 100,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 34,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "30th Cross, 8th Main, Near Jain Temple, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_7de5675341d9",
+    "name": "Mane Thindi",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 130,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "295/A, 7th Main road, 7th Block, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_7e7712cf8dc7",
+    "name": "@Italy",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "Italian"
+    ],
+    "cost_for_two": 700,
+    "budget_bucket": "medium",
+    "rating": 4.1,
+    "votes": 305,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "1766, 14th Main, 1st Stage, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_7ef4d506f17d",
+    "name": "Dwaraka Grand",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "South Indian",
+      "Chinese",
+      "Street Food",
+      "Juices"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 128,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "Near dayananda sagar college kumarswamy layout"
+  },
+  {
+    "id": "rest_80b7ae3e8526",
+    "name": "Jalpaan",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "North Indian",
+      "Continental"
+    ],
+    "cost_for_two": 900,
+    "budget_bucket": "medium",
+    "rating": 4.0,
+    "votes": 866,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "539/49, 9th Cross, Kanakpura Road, 7th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_8133d9ac6a4e",
+    "name": "Shreyas Upahar & Burger Point",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "South Indian",
+      "Burger"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.0,
+    "votes": 7,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "Jain Temple Street, V.V.Puram, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_81368908f8c5",
+    "name": "Tiwari's",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "North Indian",
+      "Street Food"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 70,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "616/2, 31st Cross, 10th A Main Road, 4th block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_81385bd05e79",
+    "name": "Cocoa Bakes",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Bakery",
+      "Desserts"
+    ],
+    "cost_for_two": 350,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 14,
+    "features": [
+      "online_delivery",
+      "bakery",
+      "delivery"
+    ],
+    "address": "2466, 24th Cross Road, Siddanna Layout, Stage II, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_814c4e317a42",
+    "name": "Lassi Corner",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Beverages",
+      "Ice Cream"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 107,
+    "features": [
+      "online_delivery",
+      "beverage_shop",
+      "delivery"
+    ],
+    "address": "1304, Kathriguppe Main Road, Ashok Nagar, NR Colony, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_81e1d5c3dd8d",
+    "name": "The Royal Corner - Pai Viceroy",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 900,
+    "budget_bucket": "medium",
+    "rating": 4.2,
+    "votes": 815,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "Pai Viceroy, 1504, 16th Cross, 9th Main, 3rd Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_828b378ded8c",
+    "name": "Sri Yaksha Shiv Sagar",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 600,
+    "budget_bucket": "medium",
+    "rating": 3.6,
+    "votes": 24,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "940, 20th Main, Opposite South Entrance, BDA Complex, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_831d2d2b4d57",
+    "name": "Vennela Andhra Meals",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Andhra"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.0,
+    "votes": 23,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "54, Sri Durga Avenue, 3rd Floor, 33rd Cross Road, Opp. Navarathan, Jewe, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_857398b6bfa7",
+    "name": "Steaming Mugs",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Cafe"
+    ],
+    "cost_for_two": 700,
+    "budget_bucket": "medium",
+    "rating": 3.9,
+    "votes": 240,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "delivery"
+    ],
+    "address": "166/A 2nd Floor, R.V Road, Above DTDC Office, V.V Puram, Near Minerva Circle, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_85c74c89d7da",
+    "name": "Kabab Magic",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "North Indian",
+      "Kebab",
+      "Chinese",
+      "Fast Food"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 4.1,
+    "votes": 1720,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "31, Opposite Vijaya College, RV Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_869dd092b752",
+    "name": "Sri Udupi Food Hub",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Beverages"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 4.1,
+    "votes": 175,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "155, 43rd Cross Road, 8th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_86c2fcf6c993",
+    "name": "Lassi Shop",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "Beverages",
+      "Juices",
+      "Ice Cream"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 169,
+    "features": [
+      "online_delivery",
+      "beverage_shop",
+      "delivery"
+    ],
+    "address": "Dayanand Sagar College Road, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_86de98c31dd8",
+    "name": "Kadalu Sea Food Restaurant",
+    "city": "bangalore",
+    "area": "Vijay Nagar",
+    "cuisines": [
+      "Seafood",
+      "North Indian",
+      "Chinese",
+      "Andhra",
+      "Biryani",
+      "Kebab"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 153,
+    "features": [
+      "online_delivery",
+      "fine_dining",
+      "delivery"
+    ],
+    "address": "36, 2nd Main, RPC Layout, Vijay Nagar, Bangalore"
+  },
+  {
+    "id": "rest_871d99a63593",
+    "name": "Iceberg Icecreams",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Desserts",
+      "Ice Cream"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 4.0,
+    "votes": 43,
+    "features": [
+      "online_delivery",
+      "dessert_parlor",
+      "delivery"
+    ],
+    "address": "23/1, Shop Street Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_872073a808fd",
+    "name": "Vasanth Vihar - Since 1965",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian",
+      "Street Food"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 95,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "78, Nagendra Block, Giri Nagar, II Phase, Banashankari,Bangalore"
+  },
+  {
+    "id": "rest_87a52fb69bd8",
+    "name": "Faasos",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "Biryani",
+      "Fast Food"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 4.2,
+    "votes": 415,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "80, BDA Complex, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_88bef3d9a19b",
+    "name": "Kanti Sweets",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Mithai",
+      "Street Food"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 4.0,
+    "votes": 115,
+    "features": [
+      "online_delivery",
+      "sweet_shop",
+      "delivery"
+    ],
+    "address": "374/B, 2nd Phase, BSK 3rd Stage, Srinivasa Nagar, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_89eb200b1f76",
+    "name": "Cake Art",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Bakery"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 15,
+    "features": [
+      "bakery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1/A, 3rd Main, 7th Cross, Kattebalag, Narasimharaja Colony, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_8ad0b1837420",
+    "name": "Grow Fit",
+    "city": "bangalore",
+    "area": "JP Nagar",
+    "cuisines": [
+      "Healthy Food",
+      "North Indian",
+      "Thai"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 16,
+    "features": [
+      "online_delivery",
+      "takeaway",
+      "delivery"
+    ],
+    "address": "954, 2nd Floor, 24th Main, 2nd Phase, Opposite LIC Building, JP Nagar, Bangalore"
+  },
+  {
+    "id": "rest_8b5e3d85d565",
+    "name": "Sri Guru Kottureshwara Davangere Benne Dosa",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 4.1,
+    "votes": 558,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "49/1, Subbaraoshetty Road, Netkallappa Circle, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_8b8dcd45f6b8",
+    "name": "J K Fish Land",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Seafood",
+      "Mangalorean"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 35,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "272, 14th Cross Road, Yediyur, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_8cb5a08e5b0c",
+    "name": "Mint and Mustard",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 750,
+    "budget_bucket": "medium",
+    "rating": 4.0,
+    "votes": 232,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "172, Ground Floor, Near Jain College, VV Puram, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_8cc9fa649c82",
+    "name": "Sukh Sagar",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Street Food"
+    ],
+    "cost_for_two": 450,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 155,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "30th Cross, 8th Main, Near Jain Temple, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_8d724be1102e",
+    "name": "SGS Non Veg - Gundu Pulav",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Biryani",
+      "Fast Food"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 101,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "57, Kadirenahalli Road, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_8e0f8aff9e1f",
+    "name": "Smacznego",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Cafe",
+      "Mexican",
+      "Italian",
+      "Momos",
+      "Beverages"
+    ],
+    "cost_for_two": 550,
+    "budget_bucket": "medium",
+    "rating": 4.2,
+    "votes": 504,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "cafes"
+    ],
+    "address": "2470, 21 Main Road, 25th Cross, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_8e1cb4ae5be3",
+    "name": "VEGeatz",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian",
+      "North Indian"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.4,
+    "votes": 19,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "28/12/2, 3rd Main Road, Mountjoy Extension, Hanumantanagar, Banashankari, Bengaluru"
+  },
+  {
+    "id": "rest_8e38143bf303",
+    "name": "Ruchi Maayaka",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 100,
+    "budget_bucket": "low",
+    "rating": 3.3,
+    "votes": 8,
+    "features": [
+      "delivery"
+    ],
+    "address": "Padmanabhanagar, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_8f9ed4386c91",
+    "name": "Davangere Butter Dosa Hotel",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 25,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1771, 14th Main Road, 1stage, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_8fabfeac15a9",
+    "name": "The Cafe Nuts and Bolts",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "Cafe",
+      "Fast Food",
+      "Chinese"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 3.0,
+    "votes": 29,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "delivery"
+    ],
+    "address": "83/5,4th Cross. 50 Feet Road,1st Stage, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_90259255debc",
+    "name": "K27 - The Pub",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Chinese",
+      "North Indian"
+    ],
+    "cost_for_two": 1000,
+    "budget_bucket": "medium",
+    "rating": 3.1,
+    "votes": 30,
+    "features": [
+      "bar",
+      "delivery"
+    ],
+    "address": "27, 27th Cross, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_914730aca624",
+    "name": "Madhappa Hindu Military Hotel",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.4,
+    "votes": 14,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "80 Feet Road, Hosakerehalli Cross, B S K 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_91498e87471f",
+    "name": "Swadesh Tadka",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "Chinese",
+      "Beverages"
+    ],
+    "cost_for_two": 600,
+    "budget_bucket": "medium",
+    "rating": 3.5,
+    "votes": 179,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "101, Manjunatha Complex, Near BDA Complex, 22nd Main, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_91b3297a1f40",
+    "name": "Desi Cream Junction",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Chinese",
+      "North Indian",
+      "Pizza",
+      "Italian"
+    ],
+    "cost_for_two": 650,
+    "budget_bucket": "medium",
+    "rating": 3.7,
+    "votes": 36,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "7th Main Road, 4th Block, Jayanagar East, Bangalore"
+  },
+  {
+    "id": "rest_92cf32b1f48e",
+    "name": "Coffee Bytes",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Fast Food",
+      "South Indian"
+    ],
+    "cost_for_two": 100,
+    "budget_bucket": "low",
+    "rating": 3.1,
+    "votes": 6,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "10th Main, Hanumanthanagar, 50 Feet Road, Phase 1, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_92f04aa142e9",
+    "name": "Sri Udupi Veg",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 3.3,
+    "votes": 4,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "335, KR Road, Shastri Nagar, Yediyur, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_933d79a202ac",
+    "name": "The Pizzeria",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Pizza",
+      "Italian",
+      "Salad"
+    ],
+    "cost_for_two": 800,
+    "budget_bucket": "medium",
+    "rating": 2.8,
+    "votes": 45,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "1112, 30th Main,Teachers Layout, Next to SBI Bank, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_943b724fa67c",
+    "name": "Patio 805",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Thai",
+      "Vietnamese",
+      "Asian",
+      "Chinese"
+    ],
+    "cost_for_two": 1200,
+    "budget_bucket": "medium",
+    "rating": 4.1,
+    "votes": 364,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "805, Ground Floor, 35C Cross, 9th Main, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_9445c6b85324",
+    "name": "Kaapi Kendra",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 100,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 14,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "278, 34th Cross Road, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_944e33f5793c",
+    "name": "Desi Dawat",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "North Indian",
+      "Fast Food"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 248,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1328, 50 Feet Road, Stage 1, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_94ed56e84ca6",
+    "name": "Wahab",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "North Indian",
+      "Mughlai",
+      "Chinese"
+    ],
+    "cost_for_two": 350,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 97,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "28/29, 9th Main Road, 3rd Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_953069f456c3",
+    "name": "Kidambi's Kitchen",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 52,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "2465, 3rd Floor, Opposite BDA Complex, 24th Cross, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_9842706838f1",
+    "name": "KFC",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Burger",
+      "Fast Food"
+    ],
+    "cost_for_two": 450,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 505,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1, 80 Feet Road, 6th Block, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_98a1718f6752",
+    "name": "Udupi Upachar",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian",
+      "North Indian"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 3.3,
+    "votes": 6,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "5 Zaina Towers, 9th Main Yarab Nagar Main Road Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_9966299d56f2",
+    "name": "Rosewood International Hotel - Bar & Restaurant",
+    "city": "bangalore",
+    "area": "Mysore Road",
+    "cuisines": [
+      "North Indian",
+      "South Indian",
+      "Andhra",
+      "Chinese"
+    ],
+    "cost_for_two": 800,
+    "budget_bucket": "medium",
+    "rating": 3.6,
+    "votes": 8,
+    "features": [
+      "casual_dining",
+      "buffet"
+    ],
+    "address": "19/1, New Timberyard Layout, Beside Satellite Bus Stop, Mysore Road, Bangalore"
+  },
+  {
+    "id": "rest_99926aadca90",
+    "name": "Anda Ka Funda",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "North Indian",
+      "Chinese",
+      "Rolls"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 3.4,
+    "votes": 89,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "433/30/1, 10th Main, 28th A cross, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_99fe09f26414",
+    "name": "Rasoi",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.3,
+    "votes": 128,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "86, Shakthi Arcade, 21st Main, 2nd Stage, Near KIMS College and BDA Complex, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_9b1d3b904834",
+    "name": "Mylari Biryani Family Restaurant",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Biryani",
+      "Fast Food"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 73,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "198, 2nd Block, 3rd Stage, Outer Ring Road, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_9c18e7b1b817",
+    "name": "Petoo",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian"
+    ],
+    "cost_for_two": 450,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 21,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "276, Ground Floor, 100 Feet Outer Ring Road, Banashankari 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_9c19a9850c81",
+    "name": "Sreeraj Lassi Bar",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Beverages"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 4.1,
+    "votes": 210,
+    "features": [
+      "online_delivery",
+      "dessert_parlor",
+      "beverage_shop",
+      "delivery"
+    ],
+    "address": "196, 8th E Main, 27th Cross, 3rd Block, Suraj Plaza, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_9c3143c1dc02",
+    "name": "Ovenstory Pizza",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Pizza"
+    ],
+    "cost_for_two": 750,
+    "budget_bucket": "medium",
+    "rating": 3.9,
+    "votes": 172,
+    "features": [
+      "online_delivery",
+      "delivery"
+    ],
+    "address": "101, Ground Floor, Manjunatha Complex, 22nd Main Road, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_9d2cd6d0e9b3",
+    "name": "Udupi Ruchi Grand",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Street Food"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 4.2,
+    "votes": 60,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "6th Block, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_9d4425d57b63",
+    "name": "Cane-O-La",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Juices"
+    ],
+    "cost_for_two": 100,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 61,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "44/1, Bull Temple Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_9d5914ab33a8",
+    "name": "Little Cafe",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Cafe",
+      "Beverages"
+    ],
+    "cost_for_two": 600,
+    "budget_bucket": "medium",
+    "rating": 3.7,
+    "votes": 54,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "delivery"
+    ],
+    "address": "21,National High School Road,VV Puram, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_9d7a942f964c",
+    "name": "Sea Green Cafe",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Cafe",
+      "Fast Food",
+      "Beverages"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 3.3,
+    "votes": 4,
+    "features": [
+      "cafe",
+      "cafes"
+    ],
+    "address": "1036, Srinidhi Plaza, 3rd floor, Above Nilgiris, Stage 2, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_9e9187daaea6",
+    "name": "Roti Ghar",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "North Indian",
+      "Chinese",
+      "South Indian"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 750,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "17, Gandhi Bazaar Main Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_a0750c76fb77",
+    "name": "Masale Daan",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian"
+    ],
+    "cost_for_two": 350,
+    "budget_bucket": "low",
+    "rating": 3.1,
+    "votes": 4,
+    "features": [
+      "online_delivery",
+      "delivery"
+    ],
+    "address": "Fresh Menu, Stavyah Arcade #10, 3rd floor 9th Main, Opp to Daily Bread, Yarab Nagar Main Rd, Banashankari Stage II, Bengaluru- 560070."
+  },
+  {
+    "id": "rest_a0fe82bad25a",
+    "name": "North Rasoe",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "North Indian",
+      "Chinese",
+      "Biryani",
+      "Kebab"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 3.1,
+    "votes": 5,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "52, Dayanand Sagar College Road, Teachers Colony, Near ICICI Bank ATM, Bangalore East, Bangalore Urban Karnataka, Kumaraswamy Layout, Bangalore."
+  },
+  {
+    "id": "rest_a114366040db",
+    "name": "J Spice",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 750,
+    "budget_bucket": "medium",
+    "rating": 3.8,
+    "votes": 59,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "632/A, 24th Cross, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_a2ab4bc270a4",
+    "name": "Chinese Kitchen",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Chinese"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 58,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "67, Kanasu Complex, Kubirmutt Road, Hunumathathangar, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_a3316cabd797",
+    "name": "Recipe",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "North Indian",
+      "Chinese",
+      "Biryani",
+      "Rolls"
+    ],
+    "cost_for_two": 450,
+    "budget_bucket": "low",
+    "rating": 4.0,
+    "votes": 804,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "1621, 1st Floor, 50 Feet Main Road, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_a54a90fee826",
+    "name": "Chatar Patar",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Fast Food",
+      "Street Food"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 65,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "24/1, 23rd Cross, 6th Main Road, Opposite Kaveri Grameena Bank, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_a5794d423a03",
+    "name": "Rajathadri Food Fort",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Street Food"
+    ],
+    "cost_for_two": 600,
+    "budget_bucket": "medium",
+    "rating": 4.0,
+    "votes": 465,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "19/49, Near National College, 2nd Main, 31st Cross, 7th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_a5887dbaf037",
+    "name": "RS Shiv Sagar",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "North Indian",
+      "Chinese",
+      "South Indian",
+      "Fast Food",
+      "Juices"
+    ],
+    "cost_for_two": 450,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 217,
+    "features": [
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "5, Mallariah Complex, Near Corporation Bank, Gandhi Nagar, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_a5db1fc8754d",
+    "name": "Kolkata King",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Fast Food",
+      "Rolls"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.4,
+    "votes": 6,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "32, Khaleel Plaza, Opposite Vijaya Collage, RV Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_a81fc03672bb",
+    "name": "Firangi Bake",
+    "city": "bangalore",
+    "area": "Rajarajeshwari Nagar",
+    "cuisines": [
+      "Mexican",
+      "Italian"
+    ],
+    "cost_for_two": 600,
+    "budget_bucket": "medium",
+    "rating": 4.0,
+    "votes": 53,
+    "features": [
+      "online_delivery",
+      "delivery"
+    ],
+    "address": "8th Main Road, Remco Bhel Layout, Ideal Homes Township, Rajarajeshwari Nagar, Bengaluru"
+  },
+  {
+    "id": "rest_a8c2986c04fb",
+    "name": "Cross Road Cafe",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Cafe",
+      "Fast Food",
+      "Chinese"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 91,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "delivery"
+    ],
+    "address": "671,45th Cross, 8th Block, Near Metro Pillar EP 22, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_a9b37e939e41",
+    "name": "Ruchis Point",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Fast Food",
+      "Chinese"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 75,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "186, 24th Cross, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_aa39a17f2abb",
+    "name": "Just Shawarma",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "Arabian"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 160,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1424, 14th Main Road, 1st Stage, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_aae4b33a36c3",
+    "name": "Millet Mama",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "South Indian",
+      "Healthy Food"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 18,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "Next To Surana College, South End Circle, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_ab6e5f6def2e",
+    "name": "Kadala Tarangaa",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Mangalorean",
+      "Seafood",
+      "North Indian"
+    ],
+    "cost_for_two": 600,
+    "budget_bucket": "medium",
+    "rating": 3.6,
+    "votes": 129,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "27, 27th Cross, 1st Floor, Kadamba Complex, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_abb100e143d2",
+    "name": "My Tea House",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Italian",
+      "Fast Food",
+      "Cafe",
+      "European"
+    ],
+    "cost_for_two": 600,
+    "budget_bucket": "medium",
+    "rating": 3.6,
+    "votes": 62,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "cafe",
+      "cafes"
+    ],
+    "address": "224/Y, 4th Phase, 7th Block, 100 Feet Ring Road, Near Kamakya Theatre, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_abe75fa2212e",
+    "name": "Brundhavana Food Point",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Street Food",
+      "Beverages"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 4.0,
+    "votes": 191,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1795, Near Police Station, 13th Main, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_abee5228998a",
+    "name": "Gustoes Beer House",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Continental",
+      "Italian",
+      "Mexican",
+      "North Indian",
+      "Chinese",
+      "Steak"
+    ],
+    "cost_for_two": 1200,
+    "budget_bucket": "medium",
+    "rating": 4.1,
+    "votes": 868,
+    "features": [
+      "pub",
+      "delivery"
+    ],
+    "address": "10, 30th Main, Deve Gowda Petrol Bunk Road, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_ac69784a787e",
+    "name": "Fast And Fresh",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "Chinese",
+      "Fast Food"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 2.8,
+    "votes": 91,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "32, 7th Main Road, Dwaraka Nagar,Near PES College, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_ad1f239c1039",
+    "name": "Shri Vinayaka Ice N Juice",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Beverages",
+      "Fast Food"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 3.2,
+    "votes": 11,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "14/38, Shivakrupa, 1st Model House Street, Near Nagasnadra Circle, DVG Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_ae2cdaaf0b7e",
+    "name": "Bengaluru Coffee House",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese",
+      "Street Food"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 4.1,
+    "votes": 201,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "4001/4002, Annapoorneshwari Plaza, Near Seetha Circle, Hosakerehalli Cross, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_ae34daa9e369",
+    "name": "Chutney Chang",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "North Indian",
+      "Chinese",
+      "Bbq"
+    ],
+    "cost_for_two": 1500,
+    "budget_bucket": "high",
+    "rating": 4.1,
+    "votes": 2339,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "Cosmopolitan Club, 22nd Cross, 3rd Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_ae404e47b188",
+    "name": "Namma Biryani",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Biryani",
+      "Chinese",
+      "North Indian"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 24,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1111, Near KIMS, 30th Main Road, Siddanna Layout, Stage 2, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_ae4a7a5893b7",
+    "name": "The Blue Wagon - Kitchen",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Cafe",
+      "Beverages"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 4.6,
+    "votes": 228,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "delivery"
+    ],
+    "address": "615/1, Ground Floor, Janardhan Mansion, 10th C Main, 32nd D Cross, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_af364ff1858d",
+    "name": "Beijing Bites",
+    "city": "bangalore",
+    "area": "Rajarajeshwari Nagar",
+    "cuisines": [
+      "Chinese",
+      "Thai"
+    ],
+    "cost_for_two": 850,
+    "budget_bucket": "medium",
+    "rating": 3.7,
+    "votes": 679,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "179, 1st Floor, Jawarlalnehru Road, BEML Layout, Rajarajeshwari Nagar, Bangalore"
+  },
+  {
+    "id": "rest_af979e8841c7",
+    "name": "Gama Gama",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 264,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "17, Ground Floor, Near Big Bazar, 100 Feet Ring Road, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_b0069fec4992",
+    "name": "Vi Ra's Bar and Restaurant",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 800,
+    "budget_bucket": "medium",
+    "rating": 3.3,
+    "votes": 62,
+    "features": [
+      "bar",
+      "delivery"
+    ],
+    "address": "3828, Near Deve Gowda Petrol Bunk, 30th Cross, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_b0a84a0c26cb",
+    "name": "Just Bunny",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Fast Food"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 11,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "45, 6th C Main Road, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_b0edd9ebe5bc",
+    "name": "Lassi Shop",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Beverages",
+      "Ice Cream",
+      "Fast Food"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 45,
+    "features": [
+      "online_delivery",
+      "beverage_shop",
+      "delivery"
+    ],
+    "address": "742, 50 Feet Rd, Raghavendra Block, Banashankari 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_b2b0197a66c1",
+    "name": "Grand Village",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "North Indian",
+      "Rajasthani"
+    ],
+    "cost_for_two": 600,
+    "budget_bucket": "medium",
+    "rating": 3.8,
+    "votes": 166,
+    "features": [
+      "casual_dining",
+      "buffet"
+    ],
+    "address": "10, 3rd Floor, Lakshmi Associates, Gandhi Bazaar Main Road, Above Reliance Trends, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_b2dfbb08d63b",
+    "name": "Woodee Pizza",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Cafe",
+      "Pizza",
+      "Fast Food",
+      "Beverages"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 180,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "cafes"
+    ],
+    "address": "3353, 2nd Cross, Opposite Auden School, Hoskerehalli Cross, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_b417dfe8ec44",
+    "name": "Amma's Pastries",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Bakery"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 60,
+    "features": [
+      "dessert_parlor",
+      "desserts"
+    ],
+    "address": "57/18, 12th Main, Opposite PES College, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_b505449af6ca",
+    "name": "Calcutta Cafe",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "Bengali",
+      "Chinese",
+      "Sandwich"
+    ],
+    "cost_for_two": 350,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 45,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "728/1, 14th Main Road, 1st Stage, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_b620749c3987",
+    "name": "Dessert Rose",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Desserts"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 7,
+    "features": [
+      "dessert_parlor",
+      "delivery"
+    ],
+    "address": "1/34, 3rd Cross Road, Kathriguppe IV Phase, Banashankari 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_b634c68fe8f9",
+    "name": "Penthouse Cafe",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Cafe",
+      "Italian",
+      "Continental"
+    ],
+    "cost_for_two": 700,
+    "budget_bucket": "medium",
+    "rating": 4.0,
+    "votes": 324,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "cafes"
+    ],
+    "address": "1, 30th Main Road, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_b6b4ef375ad8",
+    "name": "Udupi Upahar",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian",
+      "Chinese",
+      "North Indian",
+      "Juices"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 58,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "No.1585, 22nd Main,Banashankari 1st Stage"
+  },
+  {
+    "id": "rest_b88c0451c2b4",
+    "name": "Caf-Eleven",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Cafe",
+      "Continental"
+    ],
+    "cost_for_two": 450,
+    "budget_bucket": "low",
+    "rating": 4.0,
+    "votes": 424,
+    "features": [
+      "cafe",
+      "cafes"
+    ],
+    "address": "111, Sapphire Toys Building, 100 Feet Ring Road, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_b8ca723ac876",
+    "name": "Brew Meister",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "North Indian",
+      "Continental",
+      "Finger Food",
+      "American",
+      "Asian"
+    ],
+    "cost_for_two": 1500,
+    "budget_bucket": "high",
+    "rating": 4.1,
+    "votes": 970,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "microbrewery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "523, 33rd Cross, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_b91697417eac",
+    "name": "The Fortuna",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 3.0,
+    "votes": 67,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "Basement, MR Complex, Near Police Station, 25th Cross, 14th Main, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_b9991d0402fd",
+    "name": "Matru Sagar",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 84,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "Shubashree Complex, 50 Feet Road, 1st Stage, Hanumanthanagar, Near Girinagar, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_ba00b2f473ae",
+    "name": "Vinny's",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Pizza",
+      "Italian",
+      "Continental",
+      "Desserts"
+    ],
+    "cost_for_two": 800,
+    "budget_bucket": "medium",
+    "rating": 4.2,
+    "votes": 2115,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "2467, 24th Cross, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_bb26760a53d5",
+    "name": "Tandoori Bytes",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "North Indian"
+    ],
+    "cost_for_two": 700,
+    "budget_bucket": "medium",
+    "rating": 3.6,
+    "votes": 59,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "16, Sri Banashankri Arcade, Opposite GSI Building, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_bbd66cc83ffb",
+    "name": "Cool Corner",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Street Food",
+      "Fast Food"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 4.2,
+    "votes": 191,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1/4, Nisha Complex, KR Road, Near National College, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_bc6cd5dbf1d2",
+    "name": "Naveen Kabab & Biriyani Mane",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Biryani"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.2,
+    "votes": 9,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "2, 3rd Cross, Near Pesit College, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_bc8c8531f273",
+    "name": "Onesta",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Pizza",
+      "Cafe",
+      "Italian"
+    ],
+    "cost_for_two": 600,
+    "budget_bucket": "medium",
+    "rating": 4.6,
+    "votes": 2556,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "casual_dining",
+      "cafe",
+      "cafes"
+    ],
+    "address": "2469, 3rd Floor, 24th Cross, Opposite BDA Complex, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_bd8ab0de3a4d",
+    "name": "Ifruit Ice Cream",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "Desserts",
+      "Ice Cream"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 3.3,
+    "votes": 4,
+    "features": [
+      "online_delivery",
+      "dessert_parlor",
+      "delivery"
+    ],
+    "address": "1771, 14th Main, 1st Stage, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_bdaf260659a8",
+    "name": "Imperial Restaurant",
+    "city": "bangalore",
+    "area": "Mysore Road",
+    "cuisines": [
+      "North Indian",
+      "Chinese",
+      "Biryani",
+      "Beverages"
+    ],
+    "cost_for_two": 750,
+    "budget_bucket": "medium",
+    "rating": 3.7,
+    "votes": 264,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "153, Satellite Bus Stand, Byataranyapura, Mysore Road, Bangalore"
+  },
+  {
+    "id": "rest_be149fa2a077",
+    "name": "Darbar",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 800,
+    "budget_bucket": "medium",
+    "rating": 3.0,
+    "votes": 98,
+    "features": [
+      "bar",
+      "delivery"
+    ],
+    "address": "1, Near BDA Complex, 24th Main, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_be9794a6691e",
+    "name": "San Churro Cafe",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Cafe",
+      "Mexican",
+      "Italian"
+    ],
+    "cost_for_two": 800,
+    "budget_bucket": "medium",
+    "rating": 3.8,
+    "votes": 918,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "casual_dining",
+      "buffet"
+    ],
+    "address": "1112, Next to KIMS Medical College, 17th Cross, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_bea6b54efdfa",
+    "name": "Lord Of The Kitchen",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 350,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 56,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "Shop 197, Ground Floor, Gokul Niwas, North Main Road, Rajyotsavanagar, 2nd Stage, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_bf076913b2b0",
+    "name": "Grazers",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Cafe",
+      "Burger",
+      "Continental",
+      "Italian",
+      "Desserts"
+    ],
+    "cost_for_two": 650,
+    "budget_bucket": "medium",
+    "rating": 3.9,
+    "votes": 291,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "cafe",
+      "delivery"
+    ],
+    "address": "2, Old 36, 8th F Main, 3rd Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_bf789e2ef9c5",
+    "name": "Bhattara Bhojana",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 66,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "855/A, 5th A Cross,10th Main Road, Srinivasanagar, Towords Maruthi Circle, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_bfb1bc638cc7",
+    "name": "Biryanis And More",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Biryani",
+      "North Indian",
+      "Chinese",
+      "Andhra",
+      "South Indian"
+    ],
+    "cost_for_two": 750,
+    "budget_bucket": "medium",
+    "rating": 4.0,
+    "votes": 618,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "178, Next To Old KEB Office, 8th F Main Road, 24b Cross, 3rd Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_bfd10f518929",
+    "name": "Canton",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Chinese",
+      "Seafood",
+      "Biryani"
+    ],
+    "cost_for_two": 800,
+    "budget_bucket": "medium",
+    "rating": 3.6,
+    "votes": 195,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "28-29, 3rd Block, 9th Main Road, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_c03f553a3b89",
+    "name": "Chung's Chinese Corner",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Chinese"
+    ],
+    "cost_for_two": 700,
+    "budget_bucket": "medium",
+    "rating": 3.9,
+    "votes": 221,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "295, Sri Krishna Complex, 10th Main, 3rd Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_c2ee58657438",
+    "name": "Cake Yard",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Desserts"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 3.4,
+    "votes": 30,
+    "features": [
+      "dessert_parlor",
+      "delivery"
+    ],
+    "address": "3/1 , Opposite Krishna Rao Park, Kanakapura Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_c74b2641f443",
+    "name": "Katriguppe Donne Biryani",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.2,
+    "votes": 4,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "8, Katriguppe Main Road, Vivekananda Nagar, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_c79928ca768d",
+    "name": "Sandwich Hub",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Fast Food",
+      "Sandwich"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.4,
+    "votes": 12,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "616/2, 31st Cross, 10th A Main Road, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_c79b56f4e1b9",
+    "name": "Salut",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Continental",
+      "Finger Food",
+      "Seafood",
+      "Pizza"
+    ],
+    "cost_for_two": 1200,
+    "budget_bucket": "medium",
+    "rating": 4.1,
+    "votes": 442,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "pub",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "382/71/4, 11th Main, 3rd Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_c81a6736cc18",
+    "name": "Veganbreak24x7",
+    "city": "bangalore",
+    "area": "City Market",
+    "cuisines": [
+      "South Indian",
+      "Chinese",
+      "Continental",
+      "Biryani"
+    ],
+    "cost_for_two": 199,
+    "budget_bucket": "low",
+    "rating": 2.8,
+    "votes": 5,
+    "features": [
+      "online_delivery",
+      "takeaway",
+      "delivery"
+    ],
+    "address": "2, Medical College East Main Road, Kalasipalyam, Behind Bangalore Medical College, City Market, Bangalore"
+  },
+  {
+    "id": "rest_c8b28a79163d",
+    "name": "Udupi Sri Krishna Cafe",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "North Indian",
+      "South Indian"
+    ],
+    "cost_for_two": 600,
+    "budget_bucket": "medium",
+    "rating": 3.9,
+    "votes": 14,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "24, 8th C Main, Behind Post Office, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_ca480f2a36a8",
+    "name": "Great Indian Rolls",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Rolls"
+    ],
+    "cost_for_two": 100,
+    "budget_bucket": "low",
+    "rating": 3.3,
+    "votes": 4,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "Near Metro Station R.V.Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_cbab5e9c41f3",
+    "name": "Bangalore Donne Biriyani",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "South Indian",
+      "Biryani"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.2,
+    "votes": 4,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "52 ,Dayanad Sagar College Road, Teachers Colony, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_cbb38b20ef15",
+    "name": "Kwality Wall's Swirl's Happiness Station",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Ice Cream",
+      "Desserts"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 2.9,
+    "votes": 25,
+    "features": [
+      "dessert_parlor",
+      "delivery"
+    ],
+    "address": "590, 24th Cross, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_ce02986e9c74",
+    "name": "Gokul Veg",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "North Indian",
+      "Chinese",
+      "Beverages"
+    ],
+    "cost_for_two": 750,
+    "budget_bucket": "medium",
+    "rating": 3.8,
+    "votes": 469,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "1st Floor, GR Plaza, DVG Road, Near Gandhi Bazaar circle, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_ced610b7ede4",
+    "name": "Sip n Dine",
+    "city": "bangalore",
+    "area": "Vijay Nagar",
+    "cuisines": [
+      "North Indian",
+      "Chinese",
+      "South Indian"
+    ],
+    "cost_for_two": 800,
+    "budget_bucket": "medium",
+    "rating": 3.6,
+    "votes": 218,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "998/20, Poornima Complex, First Floor, Service Road, R.P.C. Layout, Vijay Nagar, Bangalore"
+  },
+  {
+    "id": "rest_ceecc5d00a9f",
+    "name": "Dal Tadkaa",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 2.5,
+    "votes": 247,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "1, Kathriguppe Main Road, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_cf141a48dbe2",
+    "name": "Nandhanu's Rasoi",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "Chinese",
+      "North Indian"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.0,
+    "votes": 175,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "Dayanandasagar College Road, Teachers Colony, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_cf31a87a6761",
+    "name": "Utsav Restaurant",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 61,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "38/A, Mount Joy Road, Hanumanthnagar, Behind BMS College, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_cf64b3fb5d1e",
+    "name": "Paradise Premium",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Biryani",
+      "Andhra",
+      "Hyderabadi",
+      "North Indian"
+    ],
+    "cost_for_two": 700,
+    "budget_bucket": "medium",
+    "rating": 3.1,
+    "votes": 119,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "224/Y, 100 Feet Ring Road, 7th Block, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_cfd75c09deda",
+    "name": "Old Mumbai Ice Cream",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Ice Cream"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 38,
+    "features": [
+      "online_delivery",
+      "dessert_parlor",
+      "delivery"
+    ],
+    "address": "416, 24th Cross, 9th Main, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_d365520920ea",
+    "name": "Peppy Peppers",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Italian",
+      "North Indian",
+      "Mexican"
+    ],
+    "cost_for_two": 800,
+    "budget_bucket": "medium",
+    "rating": 4.2,
+    "votes": 244,
+    "features": [
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "942, 3rd Floor, 21st Main Road, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_d462b0b6a3cc",
+    "name": "Kaulige Millet Corner",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Healthy Food",
+      "South Indian"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 3.3,
+    "votes": 4,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "201, 4th Main Road, Next to National Lassi Bar, Chamrajapet, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_d49b46beedb2",
+    "name": "Kotian Karavali Restaurant",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian",
+      "Biryani"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 10,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1189, 10th Cross, Shankarnag Circle, 1st Stage, 2nd Block, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_d51baa5ef000",
+    "name": "Just Thindi",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 16,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "27, Gandhi Bazaar Main Rd, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_d5b5009a1854",
+    "name": "Shree Mandarathi Grand",
+    "city": "bangalore",
+    "area": "Uttarahalli",
+    "cuisines": [
+      "South Indian",
+      "North Indian"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 38,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "8/10, Subramanyapura Main Road, Near Royal Mart, Uttarahalli, Bangalore"
+  },
+  {
+    "id": "rest_d5b84f67065c",
+    "name": "Hatti Kaapi",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "South Indian",
+      "Beverages"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 4.0,
+    "votes": 89,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "126, Opposite Police Station, 7th Main, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_d7386c1ff0e3",
+    "name": "Ugadi",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "North Indian",
+      "Chinese",
+      "Biryani",
+      "Andhra",
+      "Mangalorean"
+    ],
+    "cost_for_two": 700,
+    "budget_bucket": "medium",
+    "rating": 2.9,
+    "votes": 177,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "609, 10th A Main Road, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_d86110ecaf4c",
+    "name": "Ganesh Grand",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Desserts"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 30,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "91/1, Ganesh Mahal Building, Sirsi Road, Chamarajpet, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_d8a81048e217",
+    "name": "Upahara Darshini",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "North Indian",
+      "Chinese",
+      "South Indian",
+      "Fast Food"
+    ],
+    "cost_for_two": 600,
+    "budget_bucket": "medium",
+    "rating": 3.9,
+    "votes": 40,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "9/2, South End Main Road, Next to Surana College, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_d9298b67bef3",
+    "name": "Toscano",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Italian",
+      "Salad"
+    ],
+    "cost_for_two": 1300,
+    "budget_bucket": "high",
+    "rating": 4.3,
+    "votes": 1129,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "359/38,Next to Fabindia, 7th Cross, 1st Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_d99bdeed724d",
+    "name": "Central Jail Restaurant",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Andhra",
+      "Seafood",
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 700,
+    "budget_bucket": "medium",
+    "rating": 3.8,
+    "votes": 412,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "433/30/1, 28th Cross, 10th Main, Opposite BDA Complex, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_da7e320b41e0",
+    "name": "Dakshin Kitchen",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 100,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 15,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "Kabirmutt Road, Gavipuram Extension, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_dd7aac1f2f2f",
+    "name": "Hotel Pork Paradise",
+    "city": "bangalore",
+    "area": "Mysore Road",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 21,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "D/25, 2nd Main, 260 Mysore Road Tollgate, Opposite Gopalan Mall, Mysore Road, Bangalore"
+  },
+  {
+    "id": "rest_dd7d86f5e6e7",
+    "name": "Eat Repeat",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 101,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "13, 4th Cross Road, NR Colony, Basavanagudi, Bengaluru"
+  },
+  {
+    "id": "rest_de1548e91f75",
+    "name": "Thamboola",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "Chinese",
+      "Continental"
+    ],
+    "cost_for_two": 800,
+    "budget_bucket": "medium",
+    "rating": 3.9,
+    "votes": 135,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "1112, Next KIMS Medical College, 17th Cross, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_deaa463a110d",
+    "name": "Chinese Square",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Chinese"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 38,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "169, Subbarama Chetty Rd, NR Colony, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_deb9b51157c4",
+    "name": "Rolls On Wheels",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Fast Food",
+      "Rolls",
+      "Momos"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 299,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "Shop 33 & 30, 21st Main, Near BDA Complex, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_df2ca5207b70",
+    "name": "Magic Meals",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Fast Food",
+      "Desserts",
+      "Beverages"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.7,
+    "votes": 47,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "dessert_parlor",
+      "delivery"
+    ],
+    "address": "50/51, 8th F Main, 3rd Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_df8845c52293",
+    "name": "Kettle & Kegs",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Tea",
+      "Beverages"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.2,
+    "votes": 6,
+    "features": [
+      "online_delivery",
+      "delivery"
+    ],
+    "address": "101, Ground Floor, Manjunatha Complex, 22nd Main Road, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_e01dbcdd74d6",
+    "name": "Snacks Bite",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "Fast Food",
+      "Momos"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.0,
+    "votes": 9,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "173, Shop 4, Ground Floor, Teachers Colony, First stage, D.S.I College Main Road, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_e0f41c9e6709",
+    "name": "Parimala Sweets",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Mithai",
+      "Street Food"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 14,
+    "features": [
+      "sweet_shop",
+      "delivery"
+    ],
+    "address": "1142, 22nd Cross, 30th Main, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_e1f098e6abee",
+    "name": "Havyaka Mess",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 28,
+    "features": [
+      "mess",
+      "delivery"
+    ],
+    "address": "Opp Vinayaka hospital, Near Seetha Circle , 80 Feet Road, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_e287062317cb",
+    "name": "Spice Elephant",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Chinese",
+      "North Indian",
+      "Thai"
+    ],
+    "cost_for_two": 800,
+    "budget_bucket": "medium",
+    "rating": 4.1,
+    "votes": 787,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "buffet"
+    ],
+    "address": "2nd Floor, 80 Feet Road, Near Big Bazaar, 6th Block, Kathriguppe, 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_e34d02d72449",
+    "name": "Maiyas",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "North Indian",
+      "South Indian",
+      "Fast Food",
+      "Juices"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 4.0,
+    "votes": 1778,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "459/30, 30th Cross, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_e38f4987dc81",
+    "name": "Srinathji's Cafe",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "North Indian",
+      "Cafe",
+      "Chinese",
+      "Fast Food"
+    ],
+    "cost_for_two": 550,
+    "budget_bucket": "medium",
+    "rating": 3.8,
+    "votes": 148,
+    "features": [
+      "casual_dining",
+      "cafe",
+      "cafes"
+    ],
+    "address": "112, Bull Temple Road,next to more Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_e5fe61cf687c",
+    "name": "Biriyani Mane",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "North Indian",
+      "Biryani"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 130,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "266/B, 7th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_e61a395c1931",
+    "name": "Sea Spice by 7 Star",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Seafood",
+      "Biryani",
+      "Beverages",
+      "South Indian",
+      "North Indian",
+      "Kebab"
+    ],
+    "cost_for_two": 1200,
+    "budget_bucket": "medium",
+    "rating": 4.0,
+    "votes": 349,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "1890, Shetty Gardenia, 9th Main, Kaverinagar, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_e8236622a898",
+    "name": "Harshi Super Sandwich",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Fast Food",
+      "Street Food"
+    ],
+    "cost_for_two": 150,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 148,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "60/1, East Anjaneya Temple Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_e84235fa3fd7",
+    "name": "Upahar Sagar",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian",
+      "Chinese",
+      "North Indian"
+    ],
+    "cost_for_two": 350,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 39,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "727, 23rd Cross, KR Road, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_e903ee20dc72",
+    "name": "Ayda Persian Kitchen",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "Iranian"
+    ],
+    "cost_for_two": 950,
+    "budget_bucket": "medium",
+    "rating": 3.7,
+    "votes": 39,
+    "features": [
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "34, 22nd Main, 22nd Cross, Opposite BDA, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_e954eed2a179",
+    "name": "Ruchi's Corner",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Fast Food"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 2.7,
+    "votes": 123,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "186, 24th Cross, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_eaf0a696fbee",
+    "name": "Cafe Vivacity",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Cafe"
+    ],
+    "cost_for_two": 650,
+    "budget_bucket": "medium",
+    "rating": 3.8,
+    "votes": 90,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "cafes"
+    ],
+    "address": "2303, 21st Cross, K R Road, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_eb02b729794c",
+    "name": "The Big O Bakes",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Bakery",
+      "Desserts"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 4.0,
+    "votes": 66,
+    "features": [
+      "bakery",
+      "delivery"
+    ],
+    "address": "45/12, 4th Cross, 10th Main, Gururaja Layout, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_eb45d02d9226",
+    "name": "Bunt's Biriyani Palace",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "South Indian",
+      "Chinese",
+      "Biryani",
+      "Seafood"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.0,
+    "votes": 213,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "487, 80 Feet Road, Bank Colony, 1st Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_eb71f6caa5ae",
+    "name": "The Grillo",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "South Indian",
+      "Arabian",
+      "Chinese",
+      "North Indian",
+      "Seafood",
+      "Mangalorean"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 2.8,
+    "votes": 80,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "126, Near Ganesha Temple, 7th Main, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_ebd8009b7173",
+    "name": "C Corner",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "Fast Food",
+      "Street Food"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.2,
+    "votes": 36,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1328, 50 Feet Main Road, 1st Stage, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_ec0ad47b9d4e",
+    "name": "Frozen Bottle",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Beverages",
+      "Desserts",
+      "Ice Cream"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 4.2,
+    "votes": 146,
+    "features": [
+      "online_delivery",
+      "beverage_shop",
+      "delivery"
+    ],
+    "address": "2477, 24th Cross Road, Siddanna Layout, Stage 2, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_ec4dd1a0daff",
+    "name": "360 Atoms Restaurant And Cafe",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Cafe",
+      "Chinese",
+      "Continental",
+      "Italian"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.1,
+    "votes": 13,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "cafes"
+    ],
+    "address": "47, 48 &49, 3Rd Floor, 21st Main Road, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_ece8f1d78ca2",
+    "name": "Mystique Palate",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Chinese",
+      "Fast Food"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 4.1,
+    "votes": 337,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "615/1, 10th C Main,32nd Cross Road ,Janardhan Mansion, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_ed414682218e",
+    "name": "Bendakaluru Bytes",
+    "city": "bangalore",
+    "area": "Vijay Nagar",
+    "cuisines": [
+      "Fast Food"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.2,
+    "votes": 154,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1349, 4th Cross Road, Kilkodungalur, RPC Layout, Vijay Nagar, Bangalore"
+  },
+  {
+    "id": "rest_ed8af271d3b9",
+    "name": "Tandoori Knight",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "Chinese",
+      "Biryani",
+      "Kebab"
+    ],
+    "cost_for_two": 450,
+    "budget_bucket": "low",
+    "rating": 3.0,
+    "votes": 290,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "34, 22nd Main, 22nd Cross, Opposite BDA, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_edb9f8396ce8",
+    "name": "Timepass Dinner",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "North Indian"
+    ],
+    "cost_for_two": 600,
+    "budget_bucket": "medium",
+    "rating": 3.8,
+    "votes": 286,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "buffet"
+    ],
+    "address": "37, 5-1, 4th Floor, Bosco Court, Gandhi Bazaar Main Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_ef0f77ee5cb3",
+    "name": "Thanco's Natural Ice Creams",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Ice Cream"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.2,
+    "votes": 9,
+    "features": [
+      "dessert_parlor",
+      "delivery"
+    ],
+    "address": "941, 21st Main Road, BSK 2nd Stage , Near BDA Complex, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_ef83241739e9",
+    "name": "Shanthi Sagar",
+    "city": "bangalore",
+    "area": "Uttarahalli",
+    "cuisines": [
+      "South Indian",
+      "North Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.1,
+    "votes": 28,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "24, Subramaniapura Main Road, Uttarahalli, Bangalore"
+  },
+  {
+    "id": "rest_efc17c27a0ca",
+    "name": "Java City",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Cafe",
+      "American",
+      "Pizza"
+    ],
+    "cost_for_two": 450,
+    "budget_bucket": "low",
+    "rating": 2.6,
+    "votes": 157,
+    "features": [
+      "online_delivery",
+      "cafe",
+      "delivery"
+    ],
+    "address": "63/2, 8th Main, 18th Cross, 3rd Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_eff00bfd981e",
+    "name": "Jalsa",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian",
+      "Mughlai",
+      "Chinese"
+    ],
+    "cost_for_two": 800,
+    "budget_bucket": "medium",
+    "rating": 4.1,
+    "votes": 775,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "casual_dining",
+      "buffet"
+    ],
+    "address": "942, 21st Main Road, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_f0af12bb2187",
+    "name": "The Trundle",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Chinese",
+      "Thai",
+      "Continental",
+      "North Indian"
+    ],
+    "cost_for_two": 700,
+    "budget_bucket": "medium",
+    "rating": 3.7,
+    "votes": 133,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "34/1, 2nd & 3rd Floor, 36th Cross, 6th Main, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_f0c265380a73",
+    "name": "Baisakhi",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "North Indian"
+    ],
+    "cost_for_two": 500,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 527,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "160, Gandhi Bazar Main Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_f0de3ff7c040",
+    "name": "Ragoo's",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Italian",
+      "Pizza",
+      "North Indian",
+      "Salad"
+    ],
+    "cost_for_two": 800,
+    "budget_bucket": "medium",
+    "rating": 3.9,
+    "votes": 233,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "16, 5th B Main, KR Road, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_f0df82555f17",
+    "name": "Mini Punjabi Dhaba",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "North Indian"
+    ],
+    "cost_for_two": 350,
+    "budget_bucket": "low",
+    "rating": 4.2,
+    "votes": 287,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "7/1, Behind BMS College Hostel, Hanumantha Nagar, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_f1b271b23c57",
+    "name": "Samskruti - Sanman Gardenia",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "North Indian",
+      "Chinese",
+      "South Indian"
+    ],
+    "cost_for_two": 550,
+    "budget_bucket": "medium",
+    "rating": 4.1,
+    "votes": 139,
+    "features": [
+      "online_delivery",
+      "casual_dining",
+      "delivery"
+    ],
+    "address": "2, Ashoka Pillar Circle, 2nd Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_f1ec9c9ec74f",
+    "name": "Desi Swaad",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "North Indian"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 10,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1554, 11th Cross, 1st Stage, Kumarswamy Layout, Near Sagar Hospital, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_f20cbe64ff27",
+    "name": "Roving Feast",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Italian",
+      "Continental",
+      "Fast Food",
+      "Chinese",
+      "Momos"
+    ],
+    "cost_for_two": 450,
+    "budget_bucket": "low",
+    "rating": 4.0,
+    "votes": 1047,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "78, 21st Main Road, Near BDA Complex, 2nd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_f3186a40d5a3",
+    "name": "Drunken Monkey",
+    "city": "bangalore",
+    "area": "Kumaraswamy Layout",
+    "cuisines": [
+      "Beverages",
+      "Fast Food"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 52,
+    "features": [
+      "online_delivery",
+      "beverage_shop",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1424, 14th Main Road, 1st Stage, Kumaraswamy Layout, Bangalore"
+  },
+  {
+    "id": "rest_f3f7071b262b",
+    "name": "Chaatimes",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Street Food",
+      "Fast Food"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 133,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "39, 3rd Main,4th Cross, Hanumanth Nagar, Near, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_f3ffda7bb50f",
+    "name": "Asha Sweets Centre",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Fast Food"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 27,
+    "features": [
+      "online_delivery",
+      "dessert_parlor",
+      "delivery"
+    ],
+    "address": "26/3, Bugle Rock Road, Gandhi Bazaar, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_f6db53f53ae0",
+    "name": "Cafe Shuffle",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Cafe",
+      "Italian",
+      "Continental"
+    ],
+    "cost_for_two": 600,
+    "budget_bucket": "medium",
+    "rating": 4.2,
+    "votes": 150,
+    "features": [
+      "online_delivery",
+      "table_booking",
+      "cafe",
+      "cafes"
+    ],
+    "address": "941, 3rd FLOOR, 21st Main, 22nd Cross, Banashankari 2nd stage, Opposite to BDA complex, Banashankari"
+  },
+  {
+    "id": "rest_f72c8f252fc0",
+    "name": "The Biryani Cafe",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Biryani",
+      "Chinese",
+      "Kebab"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 4.1,
+    "votes": 520,
+    "features": [
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "476, 2nd Floor, 9th Cross, Avalahalli BDA Park, BSK 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_f793e60939c0",
+    "name": "Grand Food",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "South Indian",
+      "Bakery",
+      "Chinese"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 3.4,
+    "votes": 8,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "bakery",
+      "delivery"
+    ],
+    "address": "6/1, Anjaneya Nagar, 100ft Ring Road, Banashankari 3rd Stage, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_f7b989a28d39",
+    "name": "South Kitchen",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "South Indian"
+    ],
+    "cost_for_two": 100,
+    "budget_bucket": "low",
+    "rating": 4.3,
+    "votes": 275,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "1st Main Road, Near Katte Balaga, NR Colony, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_f96500dd7afc",
+    "name": "Food Springs",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "South Indian",
+      "Chinese"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 4.0,
+    "votes": 232,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "559, 32nd Cross, 10th A Main, 4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_f9eeacf31447",
+    "name": "Kolkata Kathi Roll's",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Fast Food",
+      "Rolls"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 18,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "2/1,7th Main, Dwarakangar Hosakerehalli, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_fa1f8546d7f0",
+    "name": "The Lassi Park",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Juices",
+      "Desserts"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 4.1,
+    "votes": 185,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "22nd Cross, New Diagonal Road, Opposite N MKRV Womens College, 3rd Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_fa2c20094810",
+    "name": "Nammura Donne Biriyani",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Biryani",
+      "Fast Food"
+    ],
+    "cost_for_two": 400,
+    "budget_bucket": "low",
+    "rating": 3.5,
+    "votes": 155,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "84/1, South End Road, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_fa6b8aa8b6df",
+    "name": "Jalaram Sweets",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Desserts",
+      "Mithai"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 32,
+    "features": [
+      "online_delivery",
+      "sweet_shop",
+      "delivery"
+    ],
+    "address": "202F, 27th Cross Road, Opposite Sapna Book House, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_faa6d3f227e7",
+    "name": "Devanna Dum Biriyani Centre",
+    "city": "bangalore",
+    "area": "Banashankari",
+    "cuisines": [
+      "Biryani",
+      "South Indian"
+    ],
+    "cost_for_two": 300,
+    "budget_bucket": "low",
+    "rating": 3.6,
+    "votes": 28,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "16th Main Road, Near PESIT College, Banashankari, Bangalore"
+  },
+  {
+    "id": "rest_fae04b07c54d",
+    "name": "Dev Sagar - Food Street",
+    "city": "bangalore",
+    "area": "Basavanagudi",
+    "cuisines": [
+      "Street Food"
+    ],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 4.1,
+    "votes": 233,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "11/2, Old Market, V V Puram, Basavanagudi, Bangalore"
+  },
+  {
+    "id": "rest_fbefe43f85b0",
+    "name": "The Krishna Grand Xpress",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "South Indian",
+      "Fast Food"
+    ],
+    "cost_for_two": 350,
+    "budget_bucket": "low",
+    "rating": 4.0,
+    "votes": 136,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "183/28, 2nd Main Road, 36th B Cross, 7th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_ffbca84f51cc",
+    "name": "Sandwich Mama's And Frozen Monster",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": [
+      "Ice Cream",
+      "Beverages",
+      "Fast Food"
+    ],
+    "cost_for_two": 250,
+    "budget_bucket": "low",
+    "rating": 3.8,
+    "votes": 53,
+    "features": [
+      "online_delivery",
+      "quick_bites",
+      "delivery"
+    ],
+    "address": "22, Second Main Road, 7th Block, Jayanagar, Bangalore"
+  }
+]
