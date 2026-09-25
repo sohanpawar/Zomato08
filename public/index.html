@@ -638,7 +638,7 @@
         <div class="brand-subtitle">Zomato-Inspired Autonomous Restaurant Intelligence</div>
       </div>
       <div class="header-actions">
-        <div id="telemetryChip" class="telemetry-chip">
+        <div id="telemetryChip" class="telemetry-chip" onclick="openApiModal()" style="cursor:pointer;" title="Click to view API & LLM Configuration">
           <div class="telemetry-dot"></div>
           <span id="telemetryText">Connecting...</span>
         </div>
@@ -755,30 +755,62 @@
   <!-- API URL Settings Modal -->
   <div id="apiModal" class="modal-overlay" onclick="closeApiModal(event)">
     <div class="modal-box" onclick="event.stopPropagation()">
-      <div class="section-title">⚙️ API & LLM Configuration</div>
-      <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:14px;">
-        Configure backend endpoint and Groq API key for structured AI reasoning.
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+        <div class="section-title" style="margin-bottom:0;">⚙️ API & LLM Configuration</div>
+        <button onclick="closeApiModal()" style="background:transparent; border:none; color:var(--text-muted); font-size:1.2rem; cursor:pointer;">&times;</button>
+      </div>
+      
+      <p style="font-size:0.83rem; color:var(--text-muted); margin-bottom:16px;">
+        Configure server endpoint and Groq API key for autonomous AI reasoning. Settings are permanently saved in your browser storage.
       </p>
 
-      <div id="backendKeyStatus" style="font-size:0.8rem; padding:8px 12px; border-radius:6px; background:rgba(255,255,255,0.05); border:1px solid var(--border-color); margin-bottom:14px; display:flex; align-items:center; justify-content:space-between;">
-        <span>Backend Environment Key:</span>
-        <span id="backendKeyBadge" style="font-weight:600; color:var(--text-muted);">Checking...</span>
+      <!-- Status Diagnostic Box -->
+      <div style="background:rgba(255,255,255,0.03); border:1px solid var(--border-color); border-radius:8px; padding:12px 14px; margin-bottom:16px; font-size:0.8rem; display:flex; flex-direction:column; gap:8px;">
+        <div style="display:flex; align-items:center; justify-content:space-between;">
+          <span style="color:var(--text-secondary);">Backend Server:</span>
+          <span id="backendServerStatus" style="font-weight:600; font-family:'JetBrains Mono', monospace; color:var(--text-muted);">Checking...</span>
+        </div>
+        <div style="display:flex; align-items:center; justify-content:space-between;">
+          <span style="color:var(--text-secondary);">Vercel Env Key:</span>
+          <span id="backendKeyBadge" style="font-weight:600; font-family:'JetBrains Mono', monospace; color:var(--text-muted);">Checking...</span>
+        </div>
+        <div style="display:flex; align-items:center; justify-content:space-between;">
+          <span style="color:var(--text-secondary);">Browser Stored Key:</span>
+          <span id="clientKeyBadge" style="font-weight:600; font-family:'JetBrains Mono', monospace; color:var(--text-muted);">None</span>
+        </div>
       </div>
+
+      <!-- Live Test Result Banner -->
+      <div id="modalAlert" style="display:none; font-size:0.82rem; padding:10px 14px; border-radius:8px; margin-bottom:16px; line-height:1.4;"></div>
 
       <div class="form-group">
         <label class="form-label" for="apiUrlInput">API Base URL (Optional)</label>
-        <input type="text" id="apiUrlInput" class="form-input" placeholder="e.g. leave empty for automatic same-origin proxy">
-      </div>
-      <div class="form-group" style="margin-top:12px;">
-        <label class="form-label" for="apiKeyInput">Groq API Key (Client Override)</label>
-        <input type="password" id="apiKeyInput" class="form-input" placeholder="e.g. gsk_..." autocomplete="off">
+        <input type="text" id="apiUrlInput" class="form-input" placeholder="e.g. leave empty for automatic same-origin (Vercel)">
         <div style="font-size:0.75rem; color:var(--text-muted); margin-top:4px;">
-          Enables live LLM structured reasoning with <code>openai/gpt-oss-120b</code>. Saved securely in local browser storage.
+          Leave empty when using standard Vercel deployment.
         </div>
       </div>
-      <div style="display:flex; justify-content:flex-end; gap:10px; margin-top:20px;">
-        <button class="btn-reset" style="width:auto; margin:0;" onclick="closeApiModal()">Cancel</button>
-        <button class="btn-submit" style="width:auto; padding:8px 18px; font-size:0.9rem;" onclick="saveApiUrl()">Save Settings</button>
+
+      <div class="form-group" style="margin-top:14px;">
+        <label class="form-label" for="apiKeyInput">Groq API Key (Client Override)</label>
+        <div style="position:relative; display:flex; align-items:center;">
+          <input type="password" id="apiKeyInput" class="form-input" placeholder="gsk_..." autocomplete="off" style="padding-right:40px;">
+          <button type="button" onclick="toggleKeyVisibility()" style="position:absolute; right:10px; background:transparent; border:none; color:var(--text-muted); cursor:pointer; font-size:0.9rem;" title="Show/Hide Key">👁️</button>
+        </div>
+        <div style="font-size:0.75rem; color:var(--text-muted); margin-top:4px;">
+          Saved permanently in your browser. Used for <code>openai/gpt-oss-120b</code> live reasoning.
+        </div>
+      </div>
+
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-top:20px; padding-top:16px; border-top:1px solid var(--border-color);">
+        <div style="display:flex; gap:8px;">
+          <button type="button" class="btn-reset" style="width:auto; margin:0; padding:8px 12px; font-size:0.8rem;" onclick="testApiConnection()">🧪 Test Key</button>
+          <button type="button" class="btn-reset" style="width:auto; margin:0; padding:8px 12px; font-size:0.8rem; color:#E23744;" onclick="clearApiSettings()">🗑️ Clear</button>
+        </div>
+        <div style="display:flex; gap:8px;">
+          <button type="button" class="btn-reset" style="width:auto; margin:0; padding:8px 16px; font-size:0.85rem;" onclick="closeApiModal()">Close</button>
+          <button type="button" id="saveSettingsBtn" class="btn-submit" style="width:auto; padding:8px 18px; font-size:0.85rem;" onclick="saveApiUrl()">💾 Save Settings</button>
+        </div>
       </div>
     </div>
   </div>
@@ -799,9 +831,19 @@
     let selectedVibes = new Set();
 
     function getApiBaseUrl() {
-      const saved = localStorage.getItem("NEXTLEAP_API_URL");
-      if (saved && saved.trim()) return saved.trim().replace(/\/+$/, "");
+      try {
+        const saved = localStorage.getItem("NEXTLEAP_API_URL");
+        if (saved && saved.trim()) return saved.trim().replace(/\/+$/, "");
+      } catch (e) {}
       return window.location.origin;
+    }
+
+    function getStoredGroqKey() {
+      try {
+        return (localStorage.getItem("NEXTLEAP_GROQ_KEY") || "").trim();
+      } catch (e) {
+        return "";
+      }
     }
 
     // Initialize UI Elements
@@ -845,48 +887,91 @@
     async function checkBackendHealth() {
       const chip = document.getElementById("telemetryChip");
       const text = document.getElementById("telemetryText");
-      const badge = document.getElementById("backendKeyBadge");
+      const serverStatusEl = document.getElementById("backendServerStatus");
+      const envBadge = document.getElementById("backendKeyBadge");
+      const clientBadge = document.getElementById("clientKeyBadge");
+
       const baseUrl = getApiBaseUrl();
+      const clientKey = getStoredGroqKey();
 
-      try {
-        let res = await fetch(`${baseUrl}/health`, { signal: AbortSignal.timeout(6000) });
-        if (!res.ok && (res.status === 404 || res.status === 405)) {
-          res = await fetch(`${baseUrl}/api/health`, { signal: AbortSignal.timeout(6000) });
+      if (clientBadge) {
+        if (clientKey) {
+          const masked = clientKey.length > 8 ? `...${clientKey.slice(-4)}` : "Saved";
+          clientBadge.textContent = `● Saved (${masked})`;
+          clientBadge.style.color = "#7BDB80";
+        } else {
+          clientBadge.textContent = "○ None";
+          clientBadge.style.color = "var(--text-muted)";
         }
-        if (res.ok) {
-          const data = await res.json();
-          chip.className = "telemetry-chip";
-          const clientKey = localStorage.getItem("NEXTLEAP_GROQ_KEY");
-          const hasKey = data.llm_configured || (clientKey && clientKey.trim().length > 10);
-          
-          if (hasKey) {
-            text.textContent = `● AI Ready • ${data.total_restaurants || 411} venues`;
-          } else {
-            text.textContent = `● Online (Heuristic Mode) • ${data.total_restaurants || 411} venues`;
-          }
+      }
 
-          if (badge) {
-            if (data.llm_configured) {
-              badge.textContent = `● Active (${data.llm_model || "gpt-oss-120b"})`;
-              badge.style.color = "#388E3C";
-            } else {
-              badge.textContent = `○ Not Set in Vercel Env`;
-              badge.style.color = "#E23744";
+      const headers = {};
+      if (clientKey) {
+        headers["X-Groq-Api-Key"] = clientKey;
+        headers["Authorization"] = `Bearer ${clientKey}`;
+      }
+
+      const endpoints = [`${baseUrl}/health`, `${baseUrl}/api/health`, `${baseUrl}/api/index.py/health`];
+      let data = null;
+
+      for (const endpoint of endpoints) {
+        try {
+          const res = await fetch(endpoint, {
+            headers: headers,
+            signal: AbortSignal.timeout(5000)
+          });
+          if (res.ok) {
+            const parsed = await res.json();
+            if (parsed && (parsed.status === "healthy" || parsed.status === "online" || parsed.database_available !== undefined)) {
+              data = parsed;
+              break;
             }
           }
-          return true;
+        } catch (e) {}
+      }
+
+      if (data) {
+        const venueCount = data.total_restaurants || 411;
+        const hasAi = data.llm_configured || (clientKey && clientKey.length > 10);
+
+        chip.className = "telemetry-chip";
+        if (hasAi) {
+          text.textContent = `● AI Ready • ${venueCount} venues`;
+        } else {
+          text.textContent = `● Online (Heuristic Mode) • ${venueCount} venues`;
         }
-      } catch (err) {
-        console.warn("Backend check failed:", err);
+
+        if (serverStatusEl) {
+          serverStatusEl.textContent = `● Online (${venueCount} venues)`;
+          serverStatusEl.style.color = "#7BDB80";
+        }
+
+        if (envBadge) {
+          if (data.env_key_present || (data.llm_configured && !clientKey)) {
+            envBadge.textContent = `● Active (${data.llm_model || "gpt-oss-120b"})`;
+            envBadge.style.color = "#7BDB80";
+          } else {
+            envBadge.textContent = `○ Not Set in Vercel Env`;
+            envBadge.style.color = "var(--text-muted)";
+          }
+        }
+
+        return { success: true, data };
       }
 
       chip.className = "telemetry-chip offline";
-      text.textContent = `● Backend Offline (${baseUrl.includes('localhost') ? 'localhost:8000' : 'Configure API'})`;
-      if (badge) {
-        badge.textContent = "Unreachable";
-        badge.style.color = "#E23744";
+      text.textContent = `● Backend Offline (${baseUrl.includes('localhost') ? 'localhost:8000' : 'Check Settings'})`;
+
+      if (serverStatusEl) {
+        serverStatusEl.textContent = "● Unreachable";
+        serverStatusEl.style.color = "#E23744";
       }
-      return false;
+      if (envBadge) {
+        envBadge.textContent = "Unreachable";
+        envBadge.style.color = "#E23744";
+      }
+
+      return { success: false };
     }
 
     // Presets
@@ -995,66 +1080,78 @@
       };
 
       const baseUrl = getApiBaseUrl();
-      const groqKey = localStorage.getItem("NEXTLEAP_GROQ_KEY") || "";
+      const groqKey = getStoredGroqKey();
       const reqHeaders = { "Content-Type": "application/json" };
-      if (groqKey.trim()) {
-        reqHeaders["X-Groq-Api-Key"] = groqKey.trim();
+      if (groqKey) {
+        reqHeaders["X-Groq-Api-Key"] = groqKey;
+        reqHeaders["Authorization"] = `Bearer ${groqKey}`;
       }
 
-      try {
-        let response = await fetch(`${baseUrl}/recommend`, {
-          method: "POST",
-          headers: reqHeaders,
-          body: JSON.stringify(payload),
-          signal: AbortSignal.timeout(18000)
-        });
+      const endpoints = [
+        `${baseUrl}/recommend`,
+        `${baseUrl}/api/recommend`,
+        `${baseUrl}/api/index.py/recommend`
+      ];
 
-        // If direct /recommend returned 404 or 405, fallback to /api/recommend
-        if (response.status === 404 || response.status === 405) {
-          response = await fetch(`${baseUrl}/api/recommend`, {
+      let lastError = null;
+      let data = null;
+
+      for (const endpoint of endpoints) {
+        try {
+          const response = await fetch(endpoint, {
             method: "POST",
             headers: reqHeaders,
             body: JSON.stringify(payload),
-            signal: AbortSignal.timeout(18000)
+            signal: AbortSignal.timeout(20000)
           });
-        }
 
-        if (!response.ok) {
-          const errText = await response.text().catch(() => "");
-          let errMsg = `Backend returned status ${response.status}`;
-          try {
-            const errJson = JSON.parse(errText);
-            if (errJson.message) errMsg = errJson.message;
-            else if (errJson.detail) errMsg = typeof errJson.detail === "string" ? errJson.detail : JSON.stringify(errJson.detail);
-          } catch(e) {
-            if (errText && errText.length < 200 && !errText.includes("<!DOCTYPE")) {
-              errMsg += ` (${errText.trim()})`;
+          if (response.ok) {
+            data = await response.json();
+            break;
+          } else if (response.status === 404 || response.status === 405) {
+            continue; // try next endpoint variation
+          } else {
+            const errText = await response.text().catch(() => "");
+            let errMsg = `Backend returned status ${response.status}`;
+            try {
+              const errJson = JSON.parse(errText);
+              if (errJson.message) errMsg = errJson.message;
+              else if (errJson.detail) errMsg = typeof errJson.detail === "string" ? errJson.detail : JSON.stringify(errJson.detail);
+            } catch(e) {
+              if (errText && errText.length < 200 && !errText.includes("<!DOCTYPE")) {
+                errMsg += ` (${errText.trim()})`;
+              }
             }
+            lastError = new Error(errMsg);
+            break;
           }
-          throw new Error(errMsg);
+        } catch (err) {
+          lastError = err;
         }
+      }
 
-        const data = await response.json();
+      if (data) {
         renderResults(data);
         checkBackendHealth();
-      } catch (err) {
+      } else {
+        const errMessage = lastError ? lastError.message : "Failed to reach recommendation API";
         resultsContainer.innerHTML = `
           <div class="relaxation-banner" style="border-color:#E23744; background:rgba(226,55,68,0.12); padding:16px 20px;">
             <div style="font-weight:700; color:var(--coral-flare); margin-bottom:8px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px;">
               <span>⚠️ Recommendation Query Failed</span>
               <button onclick="openApiModal()" style="background:rgba(226,55,68,0.25); border:1px solid var(--coral-flare); color:#FFF; border-radius:6px; padding:4px 10px; font-size:0.78rem; cursor:pointer;">⚙️ API Settings</button>
             </div>
-            <div style="font-size:0.88rem; color:#F0F6FC; margin-bottom:8px;">${escapeHtml(err.message)}</div>
+            <div style="font-size:0.88rem; color:#F0F6FC; margin-bottom:8px;">${escapeHtml(errMessage)}</div>
             <div style="font-size:0.78rem; color:var(--text-muted); font-family:'JetBrains Mono', monospace;">
               Target: ${escapeHtml(baseUrl)}/recommend
             </div>
           </div>
         `;
-      } finally {
-        submitBtn.disabled = false;
-        submitIcon.textContent = "🚀";
-        submitText.textContent = "Get AI Recommendations";
       }
+
+      submitBtn.disabled = false;
+      submitIcon.textContent = "🚀";
+      submitText.textContent = "Get AI Recommendations";
     }
 
     function renderResults(res) {
@@ -1180,33 +1277,135 @@
     // Modal Handlers
     function openApiModal() {
       const modal = document.getElementById("apiModal");
+      const alertEl = document.getElementById("modalAlert");
+      if (alertEl) {
+        alertEl.style.display = "none";
+        alertEl.innerHTML = "";
+      }
+      
       document.getElementById("apiUrlInput").value = localStorage.getItem("NEXTLEAP_API_URL") || "";
       document.getElementById("apiKeyInput").value = localStorage.getItem("NEXTLEAP_GROQ_KEY") || "";
       checkBackendHealth();
       modal.classList.add("active");
     }
 
-    function closeApiModal(e) {
+    function closeApiModal() {
       document.getElementById("apiModal").classList.remove("active");
+    }
+
+    function toggleKeyVisibility() {
+      const input = document.getElementById("apiKeyInput");
+      input.type = input.type === "password" ? "text" : "password";
+    }
+
+    async function testApiConnection() {
+      const alertEl = document.getElementById("modalAlert");
+      const inputVal = document.getElementById("apiUrlInput").value.trim();
+      const testKey = document.getElementById("apiKeyInput").value.trim();
+      const baseUrl = inputVal ? inputVal.replace(/\/+$/, "") : window.location.origin;
+
+      alertEl.style.display = "block";
+      alertEl.style.background = "rgba(255,255,255,0.06)";
+      alertEl.style.border = "1px solid var(--border-color)";
+      alertEl.style.color = "var(--text-secondary)";
+      alertEl.innerHTML = `<span class="spinner" style="display:inline-block; vertical-align:middle; width:14px; height:14px; margin-right:8px;"></span> Testing connection to ${escapeHtml(baseUrl)}...`;
+
+      const headers = {};
+      if (testKey) {
+        headers["X-Groq-Api-Key"] = testKey;
+        headers["Authorization"] = `Bearer ${testKey}`;
+      }
+
+      const endpoints = [`${baseUrl}/health`, `${baseUrl}/api/health`, `${baseUrl}/api/index.py/health`];
+      let healthyData = null;
+
+      for (const endpoint of endpoints) {
+        try {
+          const res = await fetch(endpoint, {
+            headers: headers,
+            signal: AbortSignal.timeout(6000)
+          });
+          if (res.ok) {
+            healthyData = await res.json();
+            break;
+          }
+        } catch (e) {}
+      }
+
+      if (healthyData) {
+        const hasKey = healthyData.llm_configured || (testKey && testKey.length > 10);
+        if (hasKey) {
+          alertEl.style.background = "rgba(35, 134, 54, 0.15)";
+          alertEl.style.border = "1px solid var(--emerald-green)";
+          alertEl.style.color = "var(--emerald-light)";
+          alertEl.innerHTML = `✅ <strong>Connected & AI Ready!</strong> Database online (${healthyData.total_restaurants || 411} venues). Groq AI reasoning configured.`;
+        } else {
+          alertEl.style.background = "rgba(210, 153, 34, 0.15)";
+          alertEl.style.border = "1px solid var(--amber-warning)";
+          alertEl.style.color = "#F9C74F";
+          alertEl.innerHTML = `⚠️ <strong>Backend Online (Heuristic Mode).</strong> Connected to database (${healthyData.total_restaurants || 411} venues), but no Groq API key was detected. Recommendations will use deterministic ranking.`;
+        }
+      } else {
+        alertEl.style.background = "rgba(226, 55, 68, 0.15)";
+        alertEl.style.border = "1px solid var(--coral-flare)";
+        alertEl.style.color = "var(--coral-flare)";
+        alertEl.innerHTML = `❌ <strong>Connection Failed.</strong> Unable to reach <code>${escapeHtml(baseUrl)}/health</code>. Verify URL or network status.`;
+      }
+      
+      checkBackendHealth();
+    }
+
+    function clearApiSettings() {
+      try {
+        localStorage.removeItem("NEXTLEAP_API_URL");
+        localStorage.removeItem("NEXTLEAP_GROQ_KEY");
+      } catch (e) {}
+
+      document.getElementById("apiUrlInput").value = "";
+      document.getElementById("apiKeyInput").value = "";
+
+      const alertEl = document.getElementById("modalAlert");
+      alertEl.style.display = "block";
+      alertEl.style.background = "rgba(255,255,255,0.06)";
+      alertEl.style.border = "1px solid var(--border-color)";
+      alertEl.style.color = "var(--text-secondary)";
+      alertEl.innerHTML = "🗑️ Custom settings cleared. Reverted to default same-origin.";
+
+      checkBackendHealth();
     }
 
     function saveApiUrl() {
       const val = document.getElementById("apiUrlInput").value.trim();
-      if (val) {
-        localStorage.setItem("NEXTLEAP_API_URL", val);
-      } else {
-        localStorage.removeItem("NEXTLEAP_API_URL");
-      }
-
       const key = document.getElementById("apiKeyInput").value.trim();
-      if (key) {
-        localStorage.setItem("NEXTLEAP_GROQ_KEY", key);
-      } else {
-        localStorage.removeItem("NEXTLEAP_GROQ_KEY");
+
+      try {
+        if (val) {
+          localStorage.setItem("NEXTLEAP_API_URL", val);
+        } else {
+          localStorage.removeItem("NEXTLEAP_API_URL");
+        }
+
+        if (key) {
+          localStorage.setItem("NEXTLEAP_GROQ_KEY", key);
+        } else {
+          localStorage.removeItem("NEXTLEAP_GROQ_KEY");
+        }
+      } catch (e) {
+        console.error("Failed to write to localStorage:", e);
       }
 
-      closeApiModal();
+      const alertEl = document.getElementById("modalAlert");
+      alertEl.style.display = "block";
+      alertEl.style.background = "rgba(35, 134, 54, 0.15)";
+      alertEl.style.border = "1px solid var(--emerald-green)";
+      alertEl.style.color = "var(--emerald-light)";
+      alertEl.innerHTML = "💾 <strong>Settings saved permanently in browser!</strong>";
+
       checkBackendHealth();
+
+      setTimeout(() => {
+        closeApiModal();
+      }, 700);
     }
   </script>
 </body>

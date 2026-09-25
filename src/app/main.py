@@ -89,15 +89,28 @@ def create_app() -> FastAPI:
         # Attach request_id to state
         request.state.request_id = request_id
 
+        # Determine actual request path, accounting for Vercel internal rewrites and x-matched-path
+        matched_path = (
+            request.headers.get("x-matched-path")
+            or request.headers.get("x-vercel-matched-path")
+            or request.headers.get("x-forwarded-uri")
+            or request.headers.get("x-invoke-path")
+        )
+        if matched_path:
+            raw_path = matched_path.split("?")[0]
+        else:
+            raw_path = request.scope.get("path", "")
+
         # Normalize Vercel serverless rewrite paths if prefixed with function filename
-        raw_path = request.scope.get("path", "")
         for prefix in ("/api/index.py", "/api/index"):
             if raw_path.startswith(prefix):
-                normalized = raw_path[len(prefix):]
-                if not normalized.startswith("/"):
-                    normalized = "/" + normalized
-                request.scope["path"] = normalized
+                raw_path = raw_path[len(prefix):]
                 break
+
+        if not raw_path.startswith("/"):
+            raw_path = "/" + raw_path
+
+        request.scope["path"] = raw_path
 
         response = await call_next(request)
 
@@ -209,13 +222,30 @@ def create_app() -> FastAPI:
         include_in_schema=False,
     )
     async def health_check(
+        raw_request: Request,
         repository: RestaurantRepository = Depends(get_repository),
         settings: Settings = Depends(get_app_settings),
     ) -> HealthResponse:
         """Health check endpoint indicating database availability and system version."""
         db_available = repository.is_available()
         total_restaurants = repository.count_total() if db_available else 0
-        has_llm = bool(settings.effective_api_key)
+
+        custom_key = (
+            raw_request.headers.get("x-groq-api-key")
+            or raw_request.headers.get("X-Groq-Api-Key")
+            or raw_request.headers.get("x-llm-api-key")
+            or raw_request.headers.get("X-LLM-Api-Key")
+        )
+        if not custom_key:
+            auth_header = raw_request.headers.get("authorization") or raw_request.headers.get("Authorization")
+            if auth_header and auth_header.lower().startswith("bearer "):
+                token = auth_header[7:].strip()
+                if token.startswith("gsk_") or len(token) > 20:
+                    custom_key = token
+
+        has_env_key = bool(settings.effective_api_key)
+        has_client_key = bool(custom_key and len(custom_key.strip()) > 10)
+        has_llm = has_env_key or has_client_key
 
         return HealthResponse(
             status="healthy" if db_available else "degraded",
@@ -225,6 +255,8 @@ def create_app() -> FastAPI:
             llm_configured=has_llm,
             llm_provider=settings.llm_provider,
             llm_model=settings.llm_model,
+            env_key_present=has_env_key,
+            client_key_detected=has_client_key,
         )
 
     @app.get(

@@ -189,3 +189,5 @@ class HealthResponse(BaseModel):
     llm_configured: bool = Field(default=False, description="Whether an LLM API key is detected.")
     llm_provider: str = Field(default="groq", description="Active LLM provider.")
     llm_model: str = Field(default="", description="Active LLM model.")
+    env_key_present: bool = Field(default=False, description="Whether LLM key is configured in backend environment variables.")
+    client_key_detected: bool = Field(default=False, description="Whether client override key was detected in request.")
