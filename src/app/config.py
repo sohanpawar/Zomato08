@@ -4,6 +4,7 @@ Uses Pydantic Settings to load and validate environment variables from `.env`
 and the host environment, enforcing typed configurations.
 """
 
+import os
 from functools import lru_cache
 from pathlib import Path
 from typing import Any, Literal
@@ -178,10 +179,17 @@ class Settings(BaseSettings):
 
     @property
     def effective_api_key(self) -> str | None:
-        """Resolve the effective API key based on the active provider."""
-        if self.llm_provider == "groq":
-            return self.groq_api_key or self.llm_api_key
-        return self.llm_api_key
+        """Resolve the effective API key based on the active provider and environment."""
+        key = self.groq_api_key if self.llm_provider == "groq" else None
+        if not key:
+            key = self.llm_api_key
+        if not key:
+            # Fallback to direct environment lookup for common naming conventions
+            for env_var in ("GROQ_API_KEY", "GROQ_KEY", "GROQ_API_TOKEN", "LLM_API_KEY", "OPENAI_API_KEY"):
+                val = os.environ.get(env_var, "").strip()
+                if val:
+                    return val
+        return key
 
     # --------------------------------------------------------------------------
     # Frontend Settings

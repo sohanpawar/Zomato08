@@ -756,18 +756,24 @@
   <div id="apiModal" class="modal-overlay" onclick="closeApiModal(event)">
     <div class="modal-box" onclick="event.stopPropagation()">
       <div class="section-title">⚙️ API & LLM Configuration</div>
-      <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:16px;">
+      <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:14px;">
         Configure backend endpoint and Groq API key for structured AI reasoning.
       </p>
+
+      <div id="backendKeyStatus" style="font-size:0.8rem; padding:8px 12px; border-radius:6px; background:rgba(255,255,255,0.05); border:1px solid var(--border-color); margin-bottom:14px; display:flex; align-items:center; justify-content:space-between;">
+        <span>Backend Environment Key:</span>
+        <span id="backendKeyBadge" style="font-weight:600; color:var(--text-muted);">Checking...</span>
+      </div>
+
       <div class="form-group">
         <label class="form-label" for="apiUrlInput">API Base URL (Optional)</label>
         <input type="text" id="apiUrlInput" class="form-input" placeholder="e.g. leave empty for automatic same-origin proxy">
       </div>
       <div class="form-group" style="margin-top:12px;">
-        <label class="form-label" for="apiKeyInput">Groq API Key (Optional)</label>
+        <label class="form-label" for="apiKeyInput">Groq API Key (Client Override)</label>
         <input type="password" id="apiKeyInput" class="form-input" placeholder="e.g. gsk_..." autocomplete="off">
         <div style="font-size:0.75rem; color:var(--text-muted); margin-top:4px;">
-          Enables live LLM structured reasoning with <code>openai/gpt-oss-120b</code>. Saved securely in local storage.
+          Enables live LLM structured reasoning with <code>openai/gpt-oss-120b</code>. Saved securely in local browser storage.
         </div>
       </div>
       <div style="display:flex; justify-content:flex-end; gap:10px; margin-top:20px;">
@@ -839,6 +845,7 @@
     async function checkBackendHealth() {
       const chip = document.getElementById("telemetryChip");
       const text = document.getElementById("telemetryText");
+      const badge = document.getElementById("backendKeyBadge");
       const baseUrl = getApiBaseUrl();
 
       try {
@@ -849,7 +856,24 @@
         if (res.ok) {
           const data = await res.json();
           chip.className = "telemetry-chip";
-          text.textContent = `● System Online • ${data.total_restaurants || 411} indexed venues`;
+          const clientKey = localStorage.getItem("NEXTLEAP_GROQ_KEY");
+          const hasKey = data.llm_configured || (clientKey && clientKey.trim().length > 10);
+          
+          if (hasKey) {
+            text.textContent = `● AI Ready • ${data.total_restaurants || 411} venues`;
+          } else {
+            text.textContent = `● Online (Heuristic Mode) • ${data.total_restaurants || 411} venues`;
+          }
+
+          if (badge) {
+            if (data.llm_configured) {
+              badge.textContent = `● Active (${data.llm_model || "gpt-oss-120b"})`;
+              badge.style.color = "#388E3C";
+            } else {
+              badge.textContent = `○ Not Set in Vercel Env`;
+              badge.style.color = "#E23744";
+            }
+          }
           return true;
         }
       } catch (err) {
@@ -858,6 +882,10 @@
 
       chip.className = "telemetry-chip offline";
       text.textContent = `● Backend Offline (${baseUrl.includes('localhost') ? 'localhost:8000' : 'Configure API'})`;
+      if (badge) {
+        badge.textContent = "Unreachable";
+        badge.style.color = "#E23744";
+      }
       return false;
     }
 
@@ -1154,6 +1182,7 @@
       const modal = document.getElementById("apiModal");
       document.getElementById("apiUrlInput").value = localStorage.getItem("NEXTLEAP_API_URL") || "";
       document.getElementById("apiKeyInput").value = localStorage.getItem("NEXTLEAP_GROQ_KEY") || "";
+      checkBackendHealth();
       modal.classList.add("active");
     }
 

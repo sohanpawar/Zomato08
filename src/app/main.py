@@ -208,16 +208,21 @@ def create_app() -> FastAPI:
     )
     async def health_check(
         repository: RestaurantRepository = Depends(get_repository),
+        settings: Settings = Depends(get_app_settings),
     ) -> HealthResponse:
         """Health check endpoint indicating database availability and system version."""
         db_available = repository.is_available()
         total_restaurants = repository.count_total() if db_available else 0
+        has_llm = bool(settings.effective_api_key)
 
         return HealthResponse(
             status="healthy" if db_available else "degraded",
             database_available=db_available,
             total_restaurants=total_restaurants,
             version=__version__,
+            llm_configured=has_llm,
+            llm_provider=settings.llm_provider,
+            llm_model=settings.llm_model,
         )
 
     @app.get(
@@ -290,7 +295,18 @@ def create_app() -> FastAPI:
         engine: RecommendationEngine = Depends(get_recommendation_engine),
     ) -> RecommendationResponse:
         """Main recommendation endpoint combining deterministic retrieval with LLM reasoning."""
-        custom_key = raw_request.headers.get("X-Groq-Api-Key") or raw_request.headers.get("X-LLM-Api-Key")
+        custom_key = (
+            raw_request.headers.get("x-groq-api-key")
+            or raw_request.headers.get("X-Groq-Api-Key")
+            or raw_request.headers.get("x-llm-api-key")
+            or raw_request.headers.get("X-LLM-Api-Key")
+        )
+        if not custom_key:
+            auth_header = raw_request.headers.get("authorization") or raw_request.headers.get("Authorization")
+            if auth_header and auth_header.lower().startswith("bearer "):
+                token = auth_header[7:].strip()
+                if token.startswith("gsk_") or len(token) > 20:
+                    custom_key = token
         return await engine.recommend(request, api_key_override=custom_key)
 
     return app

@@ -186,3 +186,6 @@ class HealthResponse(BaseModel):
     database_available: bool = Field(..., description="Whether restaurant database is accessible.")
     total_restaurants: int = Field(default=0, description="Count of stored restaurants.")
     version: str = Field(default="0.1.0", description="Application version.")
+    llm_configured: bool = Field(default=False, description="Whether an LLM API key is detected.")
+    llm_provider: str = Field(default="groq", description="Active LLM provider.")
+    llm_model: str = Field(default="", description="Active LLM model.")

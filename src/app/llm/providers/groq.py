@@ -6,6 +6,7 @@ automatic JSON mode enforcement, exponential retry backoff, and latency tracking
 """
 
 import asyncio
+import os
 import time
 from typing import Any, TypeVar
 
@@ -74,7 +75,15 @@ class GroqLLMClient:
         api_key_override: str | None = None,
     ) -> tuple[T, LLMResponse]:
         """Send a structured completion request to the Groq API and parse into a Pydantic schema."""
-        effective_key = api_key_override or self.api_key
+        effective_key = (
+            api_key_override
+            or self.api_key
+            or self.settings.effective_api_key
+            or os.environ.get("GROQ_API_KEY")
+            or os.environ.get("GROQ_KEY")
+            or os.environ.get("GROQ_API_TOKEN")
+            or os.environ.get("LLM_API_KEY")
+        )
         if not effective_key:
             raise LLMAuthenticationError(
                 provider="groq"
