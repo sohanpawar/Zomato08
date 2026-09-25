@@ -91,11 +91,13 @@ def create_app() -> FastAPI:
 
         # Normalize Vercel serverless rewrite paths if prefixed with function filename
         raw_path = request.scope.get("path", "")
-        if raw_path.startswith("/api/index.py"):
-            normalized = raw_path[len("/api/index.py"):]
-            if not normalized.startswith("/"):
-                normalized = "/" + normalized
-            request.scope["path"] = normalized
+        for prefix in ("/api/index.py", "/api/index"):
+            if raw_path.startswith(prefix):
+                normalized = raw_path[len(prefix):]
+                if not normalized.startswith("/"):
+                    normalized = "/" + normalized
+                request.scope["path"] = normalized
+                break
 
         response = await call_next(request)
 
