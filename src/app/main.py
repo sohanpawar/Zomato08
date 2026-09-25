@@ -69,13 +69,20 @@ def create_app() -> FastAPI:
     # --------------------------------------------------------------------------
     # CORS Middleware
     # --------------------------------------------------------------------------
-    is_wildcard = "*" in settings.cors_origins
+    # This is a public API authenticated via request headers
+    # (X-Groq-Api-Key / Authorization bearer), NOT via cookies, so credentials
+    # are never required. We use a permissive, bulletproof wildcard CORS policy
+    # so the frontend works from ANY origin (Vercel, Railway, localhost, file://)
+    # regardless of how CORS_ORIGINS may be (mis)configured in the environment.
+    # CORS does not protect the server (only browser-side credentials, which we
+    # do not use), so there is no security downside for this public demo API.
     app.add_middleware(
         CORSMiddleware,
-        allow_origins=settings.cors_origins,
-        allow_credentials=not is_wildcard,
+        allow_origins=["*"],
+        allow_credentials=False,
         allow_methods=["*"],
         allow_headers=["*"],
+        expose_headers=["X-Request-ID", "X-Response-Time-Ms"],
     )
 
     # --------------------------------------------------------------------------
