@@ -286,10 +286,12 @@ def create_app() -> FastAPI:
     )
     async def get_recommendations(
         request: RecommendationRequest,
+        raw_request: Request,
         engine: RecommendationEngine = Depends(get_recommendation_engine),
     ) -> RecommendationResponse:
         """Main recommendation endpoint combining deterministic retrieval with LLM reasoning."""
-        return await engine.recommend(request)
+        custom_key = raw_request.headers.get("X-Groq-Api-Key") or raw_request.headers.get("X-LLM-Api-Key")
+        return await engine.recommend(request, api_key_override=custom_key)
 
     return app
 

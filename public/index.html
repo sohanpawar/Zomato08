@@ -755,17 +755,24 @@
   <!-- API URL Settings Modal -->
   <div id="apiModal" class="modal-overlay" onclick="closeApiModal(event)">
     <div class="modal-box" onclick="event.stopPropagation()">
-      <div class="section-title">⚙️ Backend API Configuration</div>
+      <div class="section-title">⚙️ API & LLM Configuration</div>
       <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:16px;">
-        Set the FastAPI endpoint URL (local, Railway, or relative proxy).
+        Configure backend endpoint and Groq API key for structured AI reasoning.
       </p>
       <div class="form-group">
-        <label class="form-label" for="apiUrlInput">API Base URL</label>
-        <input type="text" id="apiUrlInput" class="form-input" placeholder="e.g. https://your-railway-app.up.railway.app or leave empty for auto">
+        <label class="form-label" for="apiUrlInput">API Base URL (Optional)</label>
+        <input type="text" id="apiUrlInput" class="form-input" placeholder="e.g. leave empty for automatic same-origin proxy">
+      </div>
+      <div class="form-group" style="margin-top:12px;">
+        <label class="form-label" for="apiKeyInput">Groq API Key (Optional)</label>
+        <input type="password" id="apiKeyInput" class="form-input" placeholder="e.g. gsk_..." autocomplete="off">
+        <div style="font-size:0.75rem; color:var(--text-muted); margin-top:4px;">
+          Enables live LLM structured reasoning with <code>openai/gpt-oss-120b</code>. Saved securely in local storage.
+        </div>
       </div>
       <div style="display:flex; justify-content:flex-end; gap:10px; margin-top:20px;">
         <button class="btn-reset" style="width:auto; margin:0;" onclick="closeApiModal()">Cancel</button>
-        <button class="btn-submit" style="width:auto; padding:8px 18px; font-size:0.9rem;" onclick="saveApiUrl()">Save & Connect</button>
+        <button class="btn-submit" style="width:auto; padding:8px 18px; font-size:0.9rem;" onclick="saveApiUrl()">Save Settings</button>
       </div>
     </div>
   </div>
@@ -960,11 +967,16 @@
       };
 
       const baseUrl = getApiBaseUrl();
+      const groqKey = localStorage.getItem("NEXTLEAP_GROQ_KEY") || "";
+      const reqHeaders = { "Content-Type": "application/json" };
+      if (groqKey.trim()) {
+        reqHeaders["X-Groq-Api-Key"] = groqKey.trim();
+      }
 
       try {
         let response = await fetch(`${baseUrl}/recommend`, {
           method: "POST",
-          headers: { "Content-Type": "application/json" },
+          headers: reqHeaders,
           body: JSON.stringify(payload),
           signal: AbortSignal.timeout(18000)
         });
@@ -973,7 +985,7 @@
         if (response.status === 404 || response.status === 405) {
           response = await fetch(`${baseUrl}/api/recommend`, {
             method: "POST",
-            headers: { "Content-Type": "application/json" },
+            headers: reqHeaders,
             body: JSON.stringify(payload),
             signal: AbortSignal.timeout(18000)
           });
@@ -1062,8 +1074,9 @@
       // Fallback Banner
       if (!res.ai_generated && res.fallback_notice) {
         html += `
-          <div class="fallback-banner">
-            ℹ️ ${escapeHtml(res.fallback_notice)}
+          <div class="fallback-banner" style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px;">
+            <span>ℹ️ ${escapeHtml(res.fallback_notice)}</span>
+            <button onclick="openApiModal()" style="background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.22); color:#FFF; border-radius:6px; padding:4px 10px; font-size:0.75rem; cursor:pointer;">⚙️ Add Groq API Key</button>
           </div>
         `;
       }
@@ -1140,6 +1153,7 @@
     function openApiModal() {
       const modal = document.getElementById("apiModal");
       document.getElementById("apiUrlInput").value = localStorage.getItem("NEXTLEAP_API_URL") || "";
+      document.getElementById("apiKeyInput").value = localStorage.getItem("NEXTLEAP_GROQ_KEY") || "";
       modal.classList.add("active");
     }
 
@@ -1154,6 +1168,14 @@
       } else {
         localStorage.removeItem("NEXTLEAP_API_URL");
       }
+
+      const key = document.getElementById("apiKeyInput").value.trim();
+      if (key) {
+        localStorage.setItem("NEXTLEAP_GROQ_KEY", key);
+      } else {
+        localStorage.removeItem("NEXTLEAP_GROQ_KEY");
+      }
+
       closeApiModal();
       checkBackendHealth();
     }

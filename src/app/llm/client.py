@@ -99,6 +99,7 @@ class LLMClient(Protocol):
         temperature: float = 0.2,
         max_tokens: int = 1000,
         timeout_seconds: float = 10.0,
+        api_key_override: str | None = None,
     ) -> tuple[T, LLMResponse]:
         """Generate a structured response adhering to the Pydantic schema.
 

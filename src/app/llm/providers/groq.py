@@ -71,9 +71,11 @@ class GroqLLMClient:
         temperature: float | None = None,
         max_tokens: int | None = None,
         timeout_seconds: float | None = None,
+        api_key_override: str | None = None,
     ) -> tuple[T, LLMResponse]:
         """Send a structured completion request to the Groq API and parse into a Pydantic schema."""
-        if not self.api_key:
+        effective_key = api_key_override or self.api_key
+        if not effective_key:
             raise LLMAuthenticationError(
                 provider="groq"
             )
@@ -102,7 +104,7 @@ class GroqLLMClient:
             )
 
         headers = {
-            "Authorization": f"Bearer {self.api_key}",
+            "Authorization": f"Bearer {effective_key}",
             "Content-Type": "application/json",
         }
 

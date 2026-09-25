@@ -196,7 +196,11 @@ class RecommendationEngine:
 
         return valid_items
 
-    async def recommend(self, request: RecommendationRequest) -> RecommendationResponse:
+    async def recommend(
+        self,
+        request: RecommendationRequest,
+        api_key_override: str | None = None,
+    ) -> RecommendationResponse:
         """Execute the end-to-end recommendation workflow.
 
         Workflow:
@@ -208,11 +212,12 @@ class RecommendationEngine:
             6. Fallback gracefully to deterministic recommendations if LLM fails.
         """
         try:
-            # 0. Check cache for exact query hit to save LLM tokens and rate limits
-            cached_response = self.cache.get(request)
-            if cached_response:
-                logger.info("Serving cached recommendation for location: %s", request.location)
-                return cached_response
+            # 0. Check cache for exact query hit to save LLM tokens and rate limits (only if not custom key)
+            if not api_key_override:
+                cached_response = self.cache.get(request)
+                if cached_response:
+                    logger.info("Serving cached recommendation for location: %s", request.location)
+                    return cached_response
 
             # 1. Deterministic candidate retrieval & shortlisting
             filter_result = self.filter_service.filter_and_shortlist(
@@ -248,6 +253,7 @@ class RecommendationEngine:
                     temperature=self.settings.llm_temperature,
                     max_tokens=self.settings.llm_max_tokens,
                     timeout_seconds=self.settings.llm_timeout_seconds,
+                    api_key_override=api_key_override,
                 )
 
                 logger.info(
