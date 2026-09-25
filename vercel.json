@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/api/v1/:path*",
+      "destination": "https://nextleap-backend-production.up.railway.app/:path*"
+    },
+    {
+      "source": "/health",
+      "destination": "https://nextleap-backend-production.up.railway.app/health"
+    },
+    {
+      "source": "/meta",
+      "destination": "https://nextleap-backend-production.up.railway.app/meta"
+    },
+    {
+      "source": "/recommend",
+      "destination": "https://nextleap-backend-production.up.railway.app/recommend"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "X-XSS-Protection", "value": "1; mode=block" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "rest_blr_001",
+    "name": "Toscano",
+    "city": "bangalore",
+    "area": "Koramangala",
+    "cuisines": ["Italian", "Continental", "Desserts"],
+    "cost_for_two": 1600,
+    "budget_bucket": "high",
+    "rating": 4.6,
+    "votes": 1250,
+    "features": ["online_delivery", "table_booking", "romantic_ambiance"],
+    "address": "UB City, Vittal Mallya Road, Bangalore"
+  },
+  {
+    "id": "rest_blr_002",
+    "name": "Nagarjuna",
+    "city": "bangalore",
+    "area": "Indiranagar",
+    "cuisines": ["Andhra", "South Indian", "Biryani"],
+    "cost_for_two": 800,
+    "budget_bucket": "medium",
+    "rating": 4.4,
+    "votes": 3400,
+    "features": ["online_delivery", "family_friendly", "quick_service"],
+    "address": "100ft Road, Indiranagar, Bangalore"
+  },
+  {
+    "id": "rest_blr_003",
+    "name": "Taaza Thindi",
+    "city": "bangalore",
+    "area": "Jayanagar",
+    "cuisines": ["South Indian", "Fast Food"],
+    "cost_for_two": 200,
+    "budget_bucket": "low",
+    "rating": 4.7,
+    "votes": 5800,
+    "features": ["quick_service", "budget_friendly"],
+    "address": "4th Block, Jayanagar, Bangalore"
+  },
+  {
+    "id": "rest_del_001",
+    "name": "Karim's",
+    "city": "delhi",
+    "area": "Old Delhi",
+    "cuisines": ["Mughlai", "North Indian", "Kebab"],
+    "cost_for_two": 900,
+    "budget_bucket": "medium",
+    "rating": 4.5,
+    "votes": 4900,
+    "features": ["legendary_outlet", "family_friendly"],
+    "address": "Gali Kababian, Jama Masjid, Old Delhi"
+  },
+  {
+    "id": "rest_del_002",
+    "name": "Bukhara - ITC Maurya",
+    "city": "delhi",
+    "area": "Chanakyapuri",
+    "cuisines": ["North Indian", "Kebabs", "Mughlai"],
+    "cost_for_two": 6500,
+    "budget_bucket": "high",
+    "rating": 4.8,
+    "votes": 2100,
+    "features": ["fine_dining", "table_booking", "valet_parking"],
+    "address": "Diplomatic Enclave, Chanakyapuri, New Delhi"
+  },
+  {
+    "id": "rest_del_003",
+    "name": "Moti Mahal Delux",
+    "city": "delhi",
+    "area": "Daryaganj",
+    "cuisines": ["North Indian", "Butter Chicken"],
+    "cost_for_two": 450,
+    "budget_bucket": "low",
+    "rating": 3.9,
+    "votes": 820,
+    "features": ["quick_service", "budget_friendly"],
+    "address": "Netaji Subhash Marg, Daryaganj, Delhi"
+  }
+]
