@@ -39,35 +39,13 @@ logger = get_logger("app.main")
 @asynccontextmanager
 async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
     """Application lifespan manager for startup and shutdown hooks."""
-    from pathlib import Path
-
-    settings = get_settings()
-    setup_logging(level=settings.log_level, json_format=settings.json_logs)
-    logger.info("Initializing NextLeap Restaurant Recommendation API (v%s)", __version__)
-
-    # Ensure required data directories exist
-    settings.ensure_directories_exist()
-
-    # Pre-seed sample catalog if database is empty or not found on first boot
-    repo = get_repository(settings)
-    if not repo.is_available() or repo.count_total() == 0:
-        logger.warning("Database empty or missing at %s. Attempting initial seeding...", settings.sqlite_path)
-        try:
-            from app.ingestion.pipeline import IngestionPipeline
-
-            pipeline = IngestionPipeline(settings=settings)
-            sample_fixtures = [
-                Path("tests/fixtures/sample_raw_hf_zomato.json"),
-                Path("tests/fixtures/sample_restaurants.json"),
-            ]
-            for fixture in sample_fixtures:
-                if fixture.is_file():
-                    logger.info("Seeding database using fixture: %s", fixture)
-                    pipeline.run(local_file=fixture, force_reload=True)
-                    break
-            logger.info("Database initialized successfully. Total restaurants: %d", repo.count_total())
-        except Exception as e:
-            logger.warning("Auto-seeding during startup failed (will rely on mounted DB/manual ingestion): %s", e)
+    try:
+        settings = get_settings()
+        setup_logging(level=settings.log_level, json_format=settings.json_logs)
+        logger.info("Initializing NextLeap Restaurant Recommendation API (v%s)", __version__)
+        settings.ensure_directories_exist()
+    except Exception as e:
+        logger.warning("Startup directory check notice: %s", e)
 
     yield
 
@@ -101,7 +79,7 @@ def create_app() -> FastAPI:
     )
 
     # --------------------------------------------------------------------------
-    # Request ID & Latency Middleware
+    # Request ID, Path Normalization & Latency Middleware
     # --------------------------------------------------------------------------
     @app.middleware("http")
     async def request_context_middleware(request: Request, call_next):  # type: ignore[no-untyped-def]
@@ -110,6 +88,14 @@ def create_app() -> FastAPI:
 
         # Attach request_id to state
         request.state.request_id = request_id
+
+        # Normalize Vercel serverless rewrite paths if prefixed with function filename
+        raw_path = request.scope.get("path", "")
+        if raw_path.startswith("/api/index.py"):
+            normalized = raw_path[len("/api/index.py"):]
+            if not normalized.startswith("/"):
+                normalized = "/" + normalized
+            request.scope["path"] = normalized
 
         response = await call_next(request)
 
@@ -185,10 +171,26 @@ def create_app() -> FastAPI:
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             content={
                 "error_code": "INTERNAL_SERVER_ERROR",
-                "message": "An unexpected error occurred. Please try again later.",
+                "message": f"Server Error: {str(exc) or exc.__class__.__name__}",
+                "detail": str(exc),
                 "request_id": req_id,
             },
         )
+
+    # --------------------------------------------------------------------------
+    # Root Status Routes
+    # --------------------------------------------------------------------------
+    @app.get("/", tags=["System"])
+    @app.get("/api", tags=["System"], include_in_schema=False)
+    async def root_status() -> dict[str, Any]:
+        """Root status verification endpoint."""
+        return {
+            "status": "online",
+            "service": "AI-Powered Restaurant Recommendation API",
+            "version": __version__,
+            "docs": "/docs",
+            "endpoints": ["/health", "/meta", "/recommend"],
+        }
 
     # --------------------------------------------------------------------------
     # API Routes

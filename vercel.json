@@ -1,13 +1,9 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
-    "api/**/*.py": {
-      "includeFiles": "src/**,data/**,tests/fixtures/**"
-    },
-    "api/*.py": {
-      "includeFiles": "src/**,data/**,tests/fixtures/**"
-    },
-    "*.py": {
-      "includeFiles": "src/**,data/**,tests/fixtures/**"
+    "api/index.py": {
+      "includeFiles": "src/**,data/**,tests/fixtures/**",
+      "maxDuration": 60
     }
   },
   "rewrites": [
@@ -32,7 +28,7 @@
       "destination": "/api/index.py"
     },
     {
-      "source": "/api/(.*)",
+      "source": "/api/:path*",
       "destination": "/api/index.py"
     }
   ],

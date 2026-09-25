@@ -207,92 +207,131 @@ class RecommendationEngine:
             5. Reconcile selections, eliminate hallucinations, and hydrate metadata.
             6. Fallback gracefully to deterministic recommendations if LLM fails.
         """
-        # 0. Check cache for exact query hit to save LLM tokens and rate limits
-        cached_response = self.cache.get(request)
-        if cached_response:
-            logger.info("Serving cached recommendation for location: %s", request.location)
-            return cached_response
-
-        # 1. Deterministic candidate retrieval & shortlisting
-        filter_result = self.filter_service.filter_and_shortlist(
-            request=request,
-            shortlist_size=self.settings.shortlist_size,
-        )
-
-        # Handle zero candidates (e.g. unknown location)
-        if not filter_result.candidates:
-            logger.info("Returning empty response for query in location: %s", request.location)
-            return RecommendationResponse(
-                query_echo=request.model_dump(),
-                count=0,
-                recommendations=[],
-                summary=f"No matching restaurants found in '{request.location}'. Please select a supported city.",
-                relaxation=filter_result.relaxation,
-                ai_generated=False,
-            )
-
-        # 2. Build prompt
-        user_prompt = self.prompt_builder.build_user_prompt(
-            request=request,
-            candidates=filter_result.candidates,
-            relaxation=filter_result.relaxation,
-        )
-
-        # 3. Call LLM for structured reasoning
         try:
-            llm_output, telemetry = await self.llm_client.generate_structured(
-                system_prompt=PromptBuilder.SYSTEM_PROMPT,
-                user_prompt=user_prompt,
-                response_schema=LLMStructuredOutput,
-                temperature=self.settings.llm_temperature,
-                max_tokens=self.settings.llm_max_tokens,
-                timeout_seconds=self.settings.llm_timeout_seconds,
-            )
+            # 0. Check cache for exact query hit to save LLM tokens and rate limits
+            cached_response = self.cache.get(request)
+            if cached_response:
+                logger.info("Serving cached recommendation for location: %s", request.location)
+                return cached_response
 
-            logger.info(
-                "LLM recommendation completed in %.2fms (%s / %s, tokens: %d)",
-                telemetry.latency_ms,
-                telemetry.provider,
-                telemetry.model_name,
-                telemetry.total_tokens,
-            )
-
-            # 4. Anti-hallucination validation and canonical metadata hydration
-            recommendations = self._reconcile_and_hydrate(
-                llm_output=llm_output,
-                filter_result=filter_result,
+            # 1. Deterministic candidate retrieval & shortlisting
+            filter_result = self.filter_service.filter_and_shortlist(
                 request=request,
+                shortlist_size=self.settings.shortlist_size,
             )
 
-            # Fallback if reconciliation resulted in 0 items
-            if not recommendations:
-                logger.warning("Reconciliation yielded 0 items. Triggering heuristic fallback.")
-                return self._generate_fallback_response(request, filter_result)
+            # Handle zero candidates (e.g. unknown location)
+            if not filter_result.candidates:
+                logger.info("Returning empty response for query in location: %s", request.location)
+                return RecommendationResponse(
+                    query_echo=request.model_dump(),
+                    count=0,
+                    recommendations=[],
+                    summary=f"No matching restaurants found in '{request.location}'. Please select a supported city.",
+                    relaxation=filter_result.relaxation,
+                    ai_generated=False,
+                )
 
-            summary = llm_output.summary.strip() or f"Top {len(recommendations)} personalized dining recommendations."
-
-            final_response = RecommendationResponse(
-                query_echo=request.model_dump(),
-                count=len(recommendations),
-                recommendations=recommendations,
-                summary=summary,
+            # 2. Build prompt
+            user_prompt = self.prompt_builder.build_user_prompt(
+                request=request,
+                candidates=filter_result.candidates,
                 relaxation=filter_result.relaxation,
-                ai_generated=True,
-                fallback_notice=None,
             )
 
-            # Store in cache
-            self.cache.set(request, final_response)
-            return final_response
+            # 3. Call LLM for structured reasoning
+            try:
+                llm_output, telemetry = await self.llm_client.generate_structured(
+                    system_prompt=PromptBuilder.SYSTEM_PROMPT,
+                    user_prompt=user_prompt,
+                    response_schema=LLMStructuredOutput,
+                    temperature=self.settings.llm_temperature,
+                    max_tokens=self.settings.llm_max_tokens,
+                    timeout_seconds=self.settings.llm_timeout_seconds,
+                )
 
-        except Exception as e:
-            logger.warning(
-                "LLM completion failed (%s). Activating resilient heuristic fallback.",
-                str(e),
-                exc_info=True,
-            )
-            return self._generate_fallback_response(
-                request=request,
-                filter_result=filter_result,
-                notice=f"AI service currently in offline fallback mode ({e.__class__.__name__}).",
-            )
+                logger.info(
+                    "LLM recommendation completed in %.2fms (%s / %s, tokens: %d)",
+                    telemetry.latency_ms,
+                    telemetry.provider,
+                    telemetry.model_name,
+                    telemetry.total_tokens,
+                )
+
+                # 4. Anti-hallucination validation and canonical metadata hydration
+                recommendations = self._reconcile_and_hydrate(
+                    llm_output=llm_output,
+                    filter_result=filter_result,
+                    request=request,
+                )
+
+                # Fallback if reconciliation resulted in 0 items
+                if not recommendations:
+                    logger.warning("Reconciliation yielded 0 items. Triggering heuristic fallback.")
+                    return self._generate_fallback_response(request, filter_result)
+
+                summary = llm_output.summary.strip() or f"Top {len(recommendations)} personalized dining recommendations."
+
+                final_response = RecommendationResponse(
+                    query_echo=request.model_dump(),
+                    count=len(recommendations),
+                    recommendations=recommendations,
+                    summary=summary,
+                    relaxation=filter_result.relaxation,
+                    ai_generated=True,
+                    fallback_notice=None,
+                )
+
+                # Store in cache
+                self.cache.set(request, final_response)
+                return final_response
+
+            except Exception as e:
+                logger.warning(
+                    "LLM completion failed (%s). Activating resilient heuristic fallback.",
+                    str(e),
+                    exc_info=True,
+                )
+                return self._generate_fallback_response(
+                    request=request,
+                    filter_result=filter_result,
+                    notice=f"AI service currently in offline fallback mode ({e.__class__.__name__}).",
+                )
+        except Exception as ex:
+            logger.error("Critical failure in recommend: %s", ex, exc_info=True)
+            # Emergency fallback directly querying repository
+            try:
+                emergency_candidates = self.filter_service.repository.find_candidates(
+                    location=request.location,
+                    limit=request.top_n,
+                )
+                if emergency_candidates:
+                    items = []
+                    for rank, r in enumerate(emergency_candidates, start=1):
+                        items.append(
+                            RecommendationItem(
+                                rank=rank,
+                                id=r.id,
+                                name=r.name,
+                                city=r.city.title(),
+                                area=r.area,
+                                cuisine=r.cuisines,
+                                rating=r.rating,
+                                estimated_cost=r.cost_for_two,
+                                features=r.features,
+                                explanation=f"{r.name} is a top dining option in {r.area or r.city.title()} featuring {', '.join(r.cuisines[:2])}.",
+                                highlights=r.cuisines[:2],
+                            )
+                        )
+                    return RecommendationResponse(
+                        query_echo=request.model_dump(),
+                        count=len(items),
+                        recommendations=items,
+                        summary=f"Top {len(items)} popular dining selections in {request.location}.",
+                        relaxation=None,
+                        ai_generated=False,
+                        fallback_notice=f"Emergency heuristic recovery mode ({ex.__class__.__name__}).",
+                    )
+            except Exception:
+                pass
+            raise

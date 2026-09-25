@@ -835,7 +835,10 @@
       const baseUrl = getApiBaseUrl();
 
       try {
-        const res = await fetch(`${baseUrl}/health`, { signal: AbortSignal.timeout(6000) });
+        let res = await fetch(`${baseUrl}/health`, { signal: AbortSignal.timeout(6000) });
+        if (!res.ok && (res.status === 404 || res.status === 405)) {
+          res = await fetch(`${baseUrl}/api/health`, { signal: AbortSignal.timeout(6000) });
+        }
         if (res.ok) {
           const data = await res.json();
           chip.className = "telemetry-chip";
@@ -959,16 +962,36 @@
       const baseUrl = getApiBaseUrl();
 
       try {
-        const response = await fetch(`${baseUrl}/recommend`, {
+        let response = await fetch(`${baseUrl}/recommend`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(payload),
           signal: AbortSignal.timeout(18000)
         });
 
+        // If direct /recommend returned 404 or 405, fallback to /api/recommend
+        if (response.status === 404 || response.status === 405) {
+          response = await fetch(`${baseUrl}/api/recommend`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload),
+            signal: AbortSignal.timeout(18000)
+          });
+        }
+
         if (!response.ok) {
-          const errData = await response.json().catch(() => ({}));
-          throw new Error(errData.message || `Backend returned status ${response.status}`);
+          const errText = await response.text().catch(() => "");
+          let errMsg = `Backend returned status ${response.status}`;
+          try {
+            const errJson = JSON.parse(errText);
+            if (errJson.message) errMsg = errJson.message;
+            else if (errJson.detail) errMsg = typeof errJson.detail === "string" ? errJson.detail : JSON.stringify(errJson.detail);
+          } catch(e) {
+            if (errText && errText.length < 200 && !errText.includes("<!DOCTYPE")) {
+              errMsg += ` (${errText.trim()})`;
+            }
+          }
+          throw new Error(errMsg);
         }
 
         const data = await response.json();
