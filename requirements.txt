@@ -1,11 +1,12 @@
 # ==============================================================================
-# Serverless RUNTIME dependencies (Vercel Python function).
+# Serverless / server RUNTIME dependencies (Vercel Python function + Railway).
 # Keep this list MINIMAL. Heavy, offline-only libraries (pandas, pyarrow,
 # datasets, streamlit) are intentionally excluded so the deployed function
 # stays well under Vercel's 250 MB unzipped size limit. Those live in
 # requirements-dev.txt for the local ingestion pipeline & Streamlit UI.
 # ==============================================================================
 fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
 pydantic>=2.6.0
 pydantic-settings>=2.2.0
 httpx>=0.27.0

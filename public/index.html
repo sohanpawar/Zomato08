@@ -785,9 +785,9 @@
 
       <div class="form-group">
         <label class="form-label" for="apiUrlInput">API Base URL (Optional)</label>
-        <input type="text" id="apiUrlInput" class="form-input" placeholder="e.g. leave empty for automatic same-origin (Vercel)">
+        <input type="text" id="apiUrlInput" class="form-input" placeholder="Default: https://zomato08-production.up.railway.app">
         <div style="font-size:0.75rem; color:var(--text-muted); margin-top:4px;">
-          Leave empty when using standard Vercel deployment.
+          Leave empty to use the default Railway backend. Override here to point at a different server.
         </div>
       </div>
 
@@ -830,11 +830,18 @@
     let selectedCuisines = new Set();
     let selectedVibes = new Set();
 
+    // Global default backend URL (Railway-hosted FastAPI). Can be overridden
+    // per-browser via the ⚙️ API Settings modal (stored in localStorage).
+    const DEFAULT_API_BASE_URL = "https://zomato08-production.up.railway.app";
+
     function getApiBaseUrl() {
       try {
         const saved = localStorage.getItem("NEXTLEAP_API_URL");
         if (saved && saved.trim()) return saved.trim().replace(/\/+$/, "");
       } catch (e) {}
+      if (DEFAULT_API_BASE_URL && DEFAULT_API_BASE_URL.trim()) {
+        return DEFAULT_API_BASE_URL.trim().replace(/\/+$/, "");
+      }
       return window.location.origin;
     }
 
@@ -1302,7 +1309,7 @@
       const alertEl = document.getElementById("modalAlert");
       const inputVal = document.getElementById("apiUrlInput").value.trim();
       const testKey = document.getElementById("apiKeyInput").value.trim();
-      const baseUrl = inputVal ? inputVal.replace(/\/+$/, "") : window.location.origin;
+      const baseUrl = inputVal ? inputVal.replace(/\/+$/, "") : getApiBaseUrl();
 
       alertEl.style.display = "block";
       alertEl.style.background = "rgba(255,255,255,0.06)";
