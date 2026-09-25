@@ -82,8 +82,11 @@ class SQLiteRestaurantRepository:
                 check_same_thread=False,
             )
             conn.row_factory = sqlite3.Row
-            conn.execute("PRAGMA journal_mode=WAL;")
-            conn.execute("PRAGMA busy_timeout=5000;")
+            try:
+                conn.execute("PRAGMA journal_mode=WAL;")
+                conn.execute("PRAGMA busy_timeout=5000;")
+            except Exception:
+                pass
             return conn
         except sqlite3.Error as e:
             logger.error("Failed to connect to SQLite at %s: %s", self.db_path, str(e))

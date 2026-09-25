@@ -224,8 +224,11 @@ class Settings(BaseSettings):
 
     def ensure_directories_exist(self) -> None:
         """Create required data directories if they do not exist."""
-        self.raw_data_dir.mkdir(parents=True, exist_ok=True)
-        self.processed_data_dir.mkdir(parents=True, exist_ok=True)
+        try:
+            self.raw_data_dir.mkdir(parents=True, exist_ok=True)
+            self.processed_data_dir.mkdir(parents=True, exist_ok=True)
+        except OSError:
+            pass
 
 
 @lru_cache

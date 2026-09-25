@@ -1,0 +1,22 @@
+{
+  "source_dataset": "ManikaSaini/zomato-restaurant-recommendation",
+  "dataset_revision": "main",
+  "timestamp": "2026-09-20T16:59:50.321231+00:00",
+  "total_raw_rows": 500,
+  "valid_rows": 438,
+  "clean_deduped_rows": 411,
+  "dropped_rows": 62,
+  "duplicates_removed": 27,
+  "drop_reasons": {
+    "invalid_or_missing_rating": 61,
+    "missing_cuisines": 1
+  },
+  "budget_distribution": {
+    "low": 297,
+    "medium": 111,
+    "high": 3
+  },
+  "sqlite_path": "data/processed/restaurants.db",
+  "parquet_path": "data/processed/restaurants.parquet",
+  "duration_seconds": 41.35
+}

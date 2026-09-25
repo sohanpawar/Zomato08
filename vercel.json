@@ -1,21 +1,43 @@
 {
   "version": 2,
-  "rewrites": [
+  "builds": [
     {
-      "source": "/api/v1/:path*",
-      "destination": "https://nextleap-backend-production.up.railway.app/:path*"
+      "src": "api/index.py",
+      "use": "@vercel/python"
     },
     {
-      "source": "/health",
-      "destination": "https://nextleap-backend-production.up.railway.app/health"
+      "src": "public/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/health",
+      "dest": "api/index.py"
     },
     {
-      "source": "/meta",
-      "destination": "https://nextleap-backend-production.up.railway.app/meta"
+      "src": "/meta",
+      "dest": "api/index.py"
     },
     {
-      "source": "/recommend",
-      "destination": "https://nextleap-backend-production.up.railway.app/recommend"
+      "src": "/recommend",
+      "dest": "api/index.py"
+    },
+    {
+      "src": "/docs",
+      "dest": "api/index.py"
+    },
+    {
+      "src": "/openapi.json",
+      "dest": "api/index.py"
+    },
+    {
+      "src": "/api/(.*)",
+      "dest": "api/index.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/public/$1"
     }
   ],
   "headers": [
