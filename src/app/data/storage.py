@@ -9,8 +9,6 @@ import sqlite3
 from pathlib import Path
 from typing import Any
 
-import pandas as pd
-
 from app.logging import get_logger
 from app.models.restaurant import BudgetBucket, Restaurant
 
@@ -187,6 +185,10 @@ def save_restaurants_to_parquet(
         }
         for r in restaurants
     ]
+
+    # Imported lazily: pandas/pyarrow are heavy offline-only deps kept out of
+    # the serverless runtime import path.
+    import pandas as pd
 
     df = pd.DataFrame(records)
     df.to_parquet(path, engine="pyarrow", index=False)

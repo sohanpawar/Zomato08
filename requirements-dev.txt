@@ -1,4 +1,28 @@
+# ==============================================================================
+# LOCAL DEVELOPMENT dependencies.
+# Includes the slim runtime set plus the heavy offline-only libraries used by
+# the data ingestion pipeline and the local Streamlit UI. These are NOT bundled
+# into the Vercel serverless function.
+# ==============================================================================
 -r requirements.txt
+
+# Local server / tooling
+uvicorn[standard]>=0.28.0
+
+# Data ingestion & analytics (offline pipeline only)
+pandas>=2.2.0
+pyarrow>=15.0.0
+datasets>=2.18.0
+
+# Local Streamlit frontend
+streamlit>=1.32.0
+
+# Optional LLM SDKs (runtime uses httpx directly; these aid local scripts)
+groq>=0.18.0
+google-genai>=0.1.1
+openai>=1.14.0
+
+# Testing & linting
 pytest>=8.0.0
 pytest-asyncio>=0.23.5
 pytest-cov>=4.1.0
