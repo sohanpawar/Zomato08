@@ -1,4 +1,4 @@
-"""Vercel API Serverless Handler."""
+"""Vercel API Main Serverless Handler."""
 
 import sys
 from pathlib import Path
