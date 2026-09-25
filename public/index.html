@@ -771,7 +771,7 @@
           <span id="backendServerStatus" style="font-weight:600; font-family:'JetBrains Mono', monospace; color:var(--text-muted);">Checking...</span>
         </div>
         <div style="display:flex; align-items:center; justify-content:space-between;">
-          <span style="color:var(--text-secondary);">Vercel Env Key:</span>
+          <span style="color:var(--text-secondary);">Backend Env Key:</span>
           <span id="backendKeyBadge" style="font-weight:600; font-family:'JetBrains Mono', monospace; color:var(--text-muted);">Checking...</span>
         </div>
         <div style="display:flex; align-items:center; justify-content:space-between;">
@@ -958,7 +958,7 @@
             envBadge.textContent = `● Active (${data.llm_model || "gpt-oss-120b"})`;
             envBadge.style.color = "#7BDB80";
           } else {
-            envBadge.textContent = `○ Not Set in Vercel Env`;
+            envBadge.textContent = `○ Not Set (using client key)`;
             envBadge.style.color = "var(--text-muted)";
           }
         }
